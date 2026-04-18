@@ -215,10 +215,32 @@ Find performance issues using Django database rules
 * **Advanced Patterns**: Complex workflow orchestration, event-driven processing, distributed patterns
 * **Enterprise-grade**: Production deployment, monitoring integration, security hardening, scalability patterns
 
-### Celery
+### Docker ⭐ New
 
-* Task execution, retries, scaling, monitoring
-* Reliable distributed workflow patterns
+* **170+ rules** across **11 categories** covering the complete Docker ecosystem
+* **42 comprehensive files** with production-ready patterns and best practices
+* **Container Fundamentals**: Dockerfile optimization, security, multi-stage builds, image management
+* **Docker Build**: BuildKit, Buildx, multi-platform builds, caching, security (secrets/attestations)
+* **Docker Compose**: 8-rule orchestration system with multi-file configs, environments, networking, volumes
+* **Orchestration**: Complete Docker Swarm clustering with services, overlay networking, high availability
+* **Security**: Docker Scout scanning, runtime hardening, CIS compliance frameworks
+* **Observability**: Logging drivers, aggregation (ELK), monitoring, troubleshooting
+* **Advanced Features**: Docker Desktop, context management, API integration
+* **Application Containers**: Production-ready Django, FastAPI, Celery, and Redis implementations
+* Enterprise-grade deployment patterns from development to production orchestration
+
+### Redis ⭐ New
+
+* **700+ lines** of comprehensive Redis containerization and implementation patterns
+* **Complete Redis ecosystem coverage**: Core data structures, advanced modules, enterprise features
+* **Container Patterns**: Basic caching, Sentinel HA, Redis Cluster, Redis Stack with modules
+* **Advanced Features**: Redis Streams (event sourcing), Lua scripting, geospatial queries, pub/sub patterns
+* **Redis Modules**: RedisJSON, RedisSearch, RedisTimeSeries, RedisBloom, RedisGraph, RedisAI
+* **Enterprise Features**: Redis Enterprise, Active-Active replication, TLS encryption, Kubernetes integration
+* **Performance Optimization**: Connection pooling, memory tuning, persistence strategies, monitoring
+* **Integration Examples**: Django cache/session backends, Celery broker, rate limiting, message queues
+* **Security & Operations**: ACL authentication, backup strategies, monitoring dashboards, troubleshooting
+* Production-ready implementations for caching, sessions, real-time analytics, and distributed systems
 
 ---
 
