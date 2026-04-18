@@ -151,17 +151,69 @@ Find performance issues using Django database rules
 
 ### Django
 
-* 60+ rules covering security, ORM, architecture, testing, and deployment
-* Designed for real production scenarios
+* **170+ rules** across **13 categories** covering the complete Django ecosystem
+* **Comprehensive production-ready patterns** for models, views, templates, security, and deployment
+* **Security & Authentication**: CSRF protection, SQL injection prevention, XSS prevention, HTTPS enforcement, password hashing, session security
+* **Database & Models**: Migration safety, strategic indexing, foreign key protection, N+1 query elimination, constraints validation, transaction management
+* **Views & URLs**: Function vs class-based views, HTTP method handling, error responses, pagination, caching strategies, API serialization
+* **Forms**: ModelForm usage, validation logic, security cleaning, error display, file handling, formsets
+* **Templates**: Inheritance patterns, context management, security filters, static files, internationalization, performance optimization
+* **Authentication & Authorization**: User management, permissions system, custom user models, session security, password policies, social auth
+* **URLs & Admin**: Configuration patterns, reverse URL generation, namespace implementation, admin customization, actions, security
+* **Testing**: Unit vs integration testing, fixtures usage, mocking strategies, coverage goals, Django TestCase optimization
+* **Performance & Caching**: Query optimization, caching strategies, static file optimization, middleware tuning, async support
+* **Deployment**: Environment separation, secret management, static file serving, database configuration, monitoring setup, backup strategies
+* **Advanced Patterns**: Signals usage, custom middleware, model managers, generic views, admin customization, internationalization
+* **Enterprise-grade**: Production deployment, security hardening, performance optimization, monitoring integration
 
 ### FastAPI ⭐ New
 
-* 100+ individual rules across 40 categories covering the complete FastAPI ecosystem
-* Fully aligned with official FastAPI documentation (https://fastapi.tiangolo.com/)
-* Modern Python API development with async/await best practices
-* Complete coverage: core parameters → advanced security → debugging → production deployment
-* From basic parameters to advanced patterns, debugging, and production deployment
-* Core parameters, web standards, security, testing, and production deployment
+* **100+ individual rules** across **40 categories** covering the complete FastAPI ecosystem
+* **Fully aligned with official FastAPI documentation** (https://fastapi.tiangolo.com/)
+* **Async & Concurrency**: Endpoint async patterns, dependency injection, database operations, background tasks
+* **Security & Authentication**: JWT implementation, CORS configuration, rate limiting, OAuth2 flows, API key authentication
+* **Validation & Models**: Pydantic model usage, custom validators, nested models, field constraints
+* **Core Parameters**: Path/query/header parameters, request bodies, file uploads, form data handling
+* **API Design**: RESTful principles, pagination implementation, error response standardization, API versioning, streaming responses
+* **Data Handling**: Extra data types, JSON encoding, custom response classes, content negotiation
+* **Application Structure**: Bigger applications organization, dependency injection patterns, router management
+* **Database & ORM**: Async database operations, SQLAlchemy integration, connection management
+* **Testing**: Async testing strategies, test client usage, mocking dependencies, integration testing
+* **Performance**: Response caching, concurrency limits, GZip compression, background task optimization
+* **Deployment**: Production server setup (Uvicorn/Gunicorn), containerization, environment configuration
+* **Documentation**: OpenAPI customization, request examples, metadata configuration, custom docs URLs
+* **Web Standards**: Cookie/header parameters, static file serving, lifespan events, middleware integration
+* **Development & Debug**: Debugging configuration, development server setup, error handling
+* **Response Handling**: Custom response classes, status codes, headers, cookies, streaming responses
+* **Advanced Security**: Multi-layered authentication, RBAC implementation, security middleware, input sanitization
+* **Advanced Patterns**: WebSocket support, partial updates, monitoring integration, path operation configuration, event-driven architecture
+* **Complete coverage**: From basic async endpoints to advanced enterprise API patterns
+
+### Celery ⭐ New
+
+* **170+ rules** across **21 categories** covering the complete Celery distributed task ecosystem
+* **Comprehensive background task processing** with production-ready patterns and best practices
+* **Configuration & Setup**: Broker configuration (Redis/RabbitMQ), environment separation, connection pooling
+* **Task Definition & Execution**: Atomic operations, calling methods (delay/apply_async), timeout management, task options
+* **Error Handling & Reliability**: Intelligent retry strategies, exponential backoff, exception handling, circuit breakers
+* **Canvas Workflows**: Chain (sequential), group (parallel), chord (sync), map/starmap (batch processing)
+* **Monitoring & Logging**: Task tracking, performance metrics, structured logging, alerting integration
+* **Performance & Scaling**: Concurrency tuning, worker pool optimization, prefetch configuration, resource management
+* **Security**: Task authentication, authorization checks, secure message passing, access control
+* **Result Backends**: Backend selection (Redis/DB), expiry management, serialization optimization, result caching
+* **Routing & Queues**: Task distribution, queue management, priority routing, worker specialization
+* **Periodic Tasks**: Celery Beat scheduling, timezone handling, reliable execution, dynamic scheduling
+* **Serialization**: Data transmission handling, custom serializers, complex object serialization
+* **Worker Management**: Lifecycle management, health monitoring, graceful shutdown, resource cleanup
+* **Signals & Events**: Event hooking for monitoring, custom behavior extension, workflow tracking
+* **Remote Control**: Runtime worker inspection, task management, queue control, live debugging
+* **Testing**: Unit testing tasks, integration testing, workflow testing, mocking strategies
+* **Daemonization**: Production service management, process supervision, auto-restart, logging
+* **Debugging**: Task inspection, worker debugging, performance profiling, issue resolution
+* **Advanced Performance**: High-throughput optimization, connection pooling, result backend tuning
+* **Extensions**: Custom bootsteps, monitoring extensions, behavior customization
+* **Advanced Patterns**: Complex workflow orchestration, event-driven processing, distributed patterns
+* **Enterprise-grade**: Production deployment, monitoring integration, security hardening, scalability patterns
 
 ### Celery
 
@@ -196,9 +248,11 @@ Each skill helps developers:
 
 Currently includes:
 
-* Django (full-stack web development)
-* FastAPI (modern async API development)
-* Celery (distributed task processing)
+* **Django** (full-stack web development)
+* **FastAPI** (modern async API development)
+* **Docker** (complete containerization ecosystem)
+* **Redis** (comprehensive data structure and caching patterns)
+* **Celery** (distributed task processing)
 
 The `assets/` directory includes supporting resources such as official documentation archives.
 
