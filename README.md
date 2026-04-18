@@ -154,6 +154,15 @@ Find performance issues using Django database rules
 * 60+ rules covering security, ORM, architecture, testing, and deployment
 * Designed for real production scenarios
 
+### FastAPI ⭐ New
+
+* 100+ individual rules across 40 categories covering the complete FastAPI ecosystem
+* Fully aligned with official FastAPI documentation (https://fastapi.tiangolo.com/)
+* Modern Python API development with async/await best practices
+* Complete coverage: core parameters → advanced security → debugging → production deployment
+* From basic parameters to advanced patterns, debugging, and production deployment
+* Core parameters, web standards, security, testing, and production deployment
+
 ### Celery
 
 * Task execution, retries, scaling, monitoring
@@ -188,6 +197,7 @@ Each skill helps developers:
 Currently includes:
 
 * Django (full-stack web development)
+* FastAPI (modern async API development)
 * Celery (distributed task processing)
 
 The `assets/` directory includes supporting resources such as official documentation archives.
