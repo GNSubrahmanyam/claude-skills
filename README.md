@@ -1,123 +1,248 @@
-# Agentic Skills - Framework Best Practices
+# ⚙️ Agentic Skills
 
-Professional-grade Agentic Skills for modern software engineering. High-performance implementations across multiple languages and frameworks, following official documentation best practices for scalable agentic workflows. 🛠️
+**Engineering workflows for AI that actually ship to production.**
 
-## 🎯 Project Overview
+Professional-grade Agentic Skills for modern software engineering.
+Built from real-world best practices, official documentation, and production experience.
 
-This project contains specialized "skills" - comprehensive best practices guides for various frameworks and libraries. Each skill is designed to help developers:
+---
 
-- **Avoid common pitfalls** and anti-patterns
-- **Follow industry best practices** for security, performance, and maintainability
-- **Make informed architectural decisions** with impact-based prioritization
-- **Accelerate development** with ready-to-use code examples and patterns
+## 🧠 What This Project Is
 
-We currently maintain **2 complete skills** covering Django web development and Celery distributed task processing, with comprehensive coverage of every major aspect of each framework. The `assets/` directory contains supporting resources like official documentation archives for offline reference during skill development.
+**agentic-skills** is a collection of reusable engineering workflows for AI agents.
 
-## 📁 Project Structure
+These are not prompts.
+These are not generic tips.
+
+👉 These are **structured systems** that tell AI:
+
+* what to do
+* when to do it
+* how to verify it
+
+Each skill encodes how experienced engineers actually build software.
+
+---
+
+## 🎯 Why This Exists
+
+AI-generated code often looks correct — but fails under real conditions.
+
+* Security gaps (CSRF, SQL injection)
+* Performance issues (N+1 queries, inefficient ORM usage)
+* Data integrity problems (missing transactions)
+* Poor production readiness
+
+👉 Fast output. Fragile systems.
+
+Modern AI needs more than prompts.
+It needs **engineering discipline**.
+
+---
+
+## ⚡ What Makes This Different
+
+Inspired by real engineering workflows:
+
+**Define → Plan → Build → Verify → Review → Ship**
+
+Each skill provides:
+
+* Trigger conditions (when to apply)
+* Step-by-step execution flow
+* Anti-pattern detection
+* Verification checkpoints
+
+👉 AI stops guessing and starts following a process
+
+---
+
+## 🧩 Example
+
+### ❌ Without workflows
+
+```python
+articles = Article.objects.all()
+for article in articles:
+    print(article.author.name)
+```
+
+### ✅ With agentic-skills
+
+```python
+articles = Article.objects.select_related('author').all()
+```
+
+👉 Eliminates N+1 queries automatically
+
+---
+
+## ⚡ Quick Start (30 seconds)
+
+1. Pick a skill:
 
 ```
-agentic-skills/
-├── README.md                          # This file
-├── skills_manager.py                  # Skills discovery and management script
-├── skills/                            # Framework skills directory
-│   └── django-skill/                  # Django best practices skill
-│       ├── SKILL.md                   # Skill overview and quick reference
-│       ├── AGENTS.md                  # Complete compiled rules reference
-│       ├── rules/                     # Individual rule files (60+ rules)
-│       │   ├── security-*.md         # Security & authentication rules
-│       │   ├── db-*.md               # Database & model rules
-│       │   ├── views-*.md            # Views & URLs rules
-│       │   ├── forms-*.md            # Forms rules
-│       │   └── ...                   # Additional rule categories
-│       └── references/                # Advanced workflow guides
-│           ├── workflows.md          # Development workflow patterns
-│           ├── middleware-signals.md # Advanced middleware & signals
-│           └── deployment-static.md  # Deployment & static files
-├── assets/                            # Supporting assets and resources
-│   └── django-docs-5.2-en.zip        # Django official documentation archive
-├── skills/[framework]-skill/         # Future skills (Celery, React, etc.)
-├── Claude_skills_best_practices.md    # General best practices documentation
-└── skills/[framework]-skill/         # Future skills (Celery, React, etc.)
+skills/django-skill/AGENTS.md
 ```
 
-## 🚀 Current Skills
+2. Copy it into your AI context (Claude / Cursor / Copilot)
 
-### Django Development Best Practices ⭐
-**Status:** Complete | **Rules:** 60+ | **Impact:** Comprehensive
+3. Use it in your prompt:
 
-A complete Django development framework covering:
-- **Security & Authentication** (CRITICAL): CSRF protection, SQL injection prevention, XSS prevention, HTTPS enforcement
-- **Database & Models** (CRITICAL): Migration safety, indexing strategies, foreign key protection, N+1 query prevention
-- **Views & URLs** (HIGH): Function vs class views, HTTP methods, error handling, pagination
-- **Forms** (HIGH): ModelForm usage, validation logic, security, file handling
-- **Templates** (MEDIUM-HIGH): Inheritance patterns, context data, security filters
-- **Authentication & Authorization** (MEDIUM-HIGH): User management, permissions, custom user models
-- **Testing** (MEDIUM-HIGH): Unit vs integration tests, fixtures, mocking, coverage
-- **Performance & Caching** (MEDIUM): Query optimization, caching strategies, static files
-- **Deployment** (MEDIUM): Environment separation, secret management, monitoring
-
-**Quick Start:**
-- 📖 **Overview:** `skills/django-skill/SKILL.md`
-- 📚 **Complete Reference:** `skills/django-skill/AGENTS.md`
-- 🔍 **Specific Rules:** `skills/django-skill/rules/[category]-[rule-name].md`
-
-### Celery Development Best Practices 🆕
-**Status:** Complete | **Rules:** 16+ | **Impact:** Comprehensive
-
-A complete Celery distributed task processing framework covering:
-- **Configuration & Setup** (CRITICAL): Broker setup, environment separation
-- **Task Definition & Execution** (CRITICAL): Calling methods, atomic operations
-- **Error Handling & Reliability** (HIGH): Intelligent retry strategies
-- **Canvas: Designing Work-flows** (HIGH): Chains, groups, chords for complex workflows
-- **Monitoring & Logging** (HIGH): Task tracking, performance metrics
-- **Performance & Scaling** (MEDIUM-HIGH): Concurrency tuning and optimization
-- **Security** (MEDIUM-HIGH): Task authentication and access control
-- **Result Backends** (MEDIUM-HIGH): Backend selection and expiry management
-- **Routing & Queues** (MEDIUM): Intelligent task distribution
-- **Periodic Tasks** (MEDIUM): Celery Beat scheduling
-- **Serialization** (MEDIUM): Safe data transmission
-- **Worker Management** (MEDIUM): Lifecycle and resource management
-- **Advanced Patterns** (LOW): Complex workflow orchestration
-
-**Quick Start:**
-- 📖 **Overview:** `skills/celery-skill/SKILL.md`
-- 📚 **Complete Reference:** `skills/celery-skill/AGENTS.md`
-- 🔍 **Specific Rules:** `skills/celery-skill/rules/[category]-[rule-name].md`
-- 🛠️ **Worker Management Guide:** `skills/celery-skill/references/worker-management.md`
-- 🛠️ **Worker Management Guide:** `skills/celery-skill/references/worker-management.md`
-
-## 🔄 How Skills Work
-
-Each skill follows a consistent, impact-driven structure:
-
-### Rule Categories by Priority
-| Priority | Focus | Description | Example Rules |
-|----------|-------|-------------|---------------|
-| **CRITICAL** | Security & Data Integrity | Prevents breaches, corruption, crashes | CSRF protection, SQL injection prevention |
-| **HIGH** | Architecture & Performance | Core application health | View patterns, database optimization |
-| **MEDIUM-HIGH** | Developer Experience | Code quality, maintainability | Template patterns, testing strategies |
-| **MEDIUM** | Scalability & Operations | Production readiness | Caching, deployment configuration |
-| **LOW** | Advanced Features | Framework mastery | Custom middleware, advanced patterns |
-
-### Rule Structure
-Every rule follows this template:
-```markdown
-# [Rule Name] ([IMPACT_LEVEL])
-
-**Impact:** [CRITICAL|HIGH|MEDIUM-HIGH|MEDIUM|LOW] - [Brief impact description]
-
-**Problem:**
-[Detailed problem description with consequences]
-
-**Solution:**
-[Clear, actionable solution]
-
-✅ **Correct:** [Working code example]
-❌ **Wrong:** [Anti-pattern example]
-
-**Common mistakes:**
-- [Frequent errors to avoid]
-
-**When to apply:**
-- [Specific use cases]
+```text
+Use Django agentic-skills best practices while implementing this feature
 ```
+
+👉 Your AI now follows structured engineering workflows
+
+---
+
+## 📦 Installation
+
+No installation required.
+
+Agentic Skills are Markdown-based workflows.
+
+You can use them by:
+
+* Copying `AGENTS.md` into your AI context
+* Referencing skills during prompts
+* Integrating into your internal AI tools
+
+Optional:
+
+* Store skills locally for reuse
+* Inject into system prompts
+* Use in custom AI pipelines
+
+---
+
+## 🧠 Usage Patterns
+
+### 1. Feature Development
+
+```text
+Build a Django API using agentic-skills best practices
+```
+
+### 2. Code Review
+
+```text
+Review this code using Django agentic-skills rules
+```
+
+### 3. Refactoring
+
+```text
+Refactor this module using agentic-skills workflow
+```
+
+### 4. Debugging
+
+```text
+Find performance issues using Django database rules
+```
+
+👉 Works across any AI agent
+
+---
+
+## 🚀 Available Skills
+
+### Django
+
+* 60+ rules covering security, ORM, architecture, testing, and deployment
+* Designed for real production scenarios
+
+### Celery
+
+* Task execution, retries, scaling, monitoring
+* Reliable distributed workflow patterns
+
+---
+
+## 🧩 How It Works
+
+Each skill is a portable workflow:
+
+* Problem → real-world impact
+* Process → structured steps
+* Validation → verification criteria
+* Output → production-ready code
+
+👉 Skills act as **plug-in intelligence for AI systems**
+
+---
+
+## 🌍 Project Overview
+
+This project contains specialized skills for frameworks and tools.
+
+Each skill helps developers:
+
+* Avoid common pitfalls and anti-patterns
+* Apply proven best practices (security, performance, maintainability)
+* Make better architectural decisions
+* Accelerate development with real code patterns
+
+Currently includes:
+
+* Django (full-stack web development)
+* Celery (distributed task processing)
+
+The `assets/` directory includes supporting resources such as official documentation archives.
+
+---
+
+## ⚙️ Advanced Usage
+
+You can integrate agentic-skills into custom workflows:
+
+* Load skills into system prompts
+* Use with LangChain or custom agents
+* Build internal developer tools
+* Combine with CI/CD validation flows
+
+👉 Ideal for teams building AI-powered development pipelines
+
+---
+
+## 🤝 Contributing
+
+We focus on **high-quality, real-world skills**.
+
+A good skill should be:
+
+* Actionable (clear execution steps)
+* Verifiable (measurable outcome)
+* Based on real production experience
+
+Add new skills:
+
+```
+skills/[framework]-skill/
+```
+
+---
+
+## ⚡ Vision
+
+A shared, cross-agent layer of engineering workflows.
+
+👉 Write once. Use across any AI.
+
+---
+
+## ⭐ Support
+
+If this improves your workflow:
+
+* Star the repository
+* Share it with your team
+* Contribute new skills
+
+---
+
+## 🧠 One-Line Summary
+
+**AI doesn’t need better prompts. It needs better engineering workflows.**
