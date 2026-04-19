@@ -82,7 +82,7 @@ articles = Article.objects.select_related('author').all()
 1. Pick a skill:
 
 ```
-skills/django-skill/AGENTS.md
+skills/django/AGENTS.md
 ```
 
 2. Copy it into your AI context (Claude / Cursor / Copilot)
@@ -242,6 +242,19 @@ Find performance issues using Django database rules
 * **Security & Operations**: ACL authentication, backup strategies, monitoring dashboards, troubleshooting
 * Production-ready implementations for caching, sessions, real-time analytics, and distributed systems
 
+### JSON Logging ⭐ New
+
+* **170+ rules** across **7 categories** covering the complete JSON logging ecosystem
+* **42 comprehensive files** with production-ready logging patterns and best practices
+* **Schema Design**: Base fields, naming conventions, data types, contextual enrichment
+* **Framework Setup**: Python structlog, JavaScript Winston, Go logrus, Java Logback, .NET Serilog
+* **Contextual Logging**: Correlation IDs, request tracing, user context, business metrics
+* **Security & Compliance**: Sensitive data protection, PII masking, audit logging, GDPR/HIPAA compliance
+* **Performance Optimization**: Log buffering, async logging, compression, sampling strategies
+* **Integration & Monitoring**: ELK stack integration, Prometheus metrics, OpenTelemetry tracing
+* **Migration & Adoption**: Gradual migration strategies, legacy system integration, team adoption
+* Enterprise-grade logging for observability, debugging, compliance, and distributed tracing
+
 ---
 
 ## 🧩 How It Works
@@ -275,6 +288,7 @@ Currently includes:
 * **Docker** (complete containerization ecosystem)
 * **Redis** (comprehensive data structure and caching patterns)
 * **Celery** (distributed task processing)
+* **JSON Logging** (enterprise observability and monitoring)
 
 The `assets/` directory includes supporting resources such as official documentation archives.
 
@@ -306,7 +320,7 @@ A good skill should be:
 Add new skills:
 
 ```
-skills/[framework]-skill/
+skills/[framework]/
 ```
 
 ---
