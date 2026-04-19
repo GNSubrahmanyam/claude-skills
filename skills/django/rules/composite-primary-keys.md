@@ -1,11 +1,16 @@
-# Impact: HIGH
+---
+title: Composite Primary Keys
+impact: HIGH
+impactDescription: Handles complex primary key scenarios with proper constraints
+tags: django, database, primary-keys, constraints
+---
 
-## Problem
+## Composite Primary Keys
 
+**Problem:**
 Django 5.2 introduced composite primary keys, but they come with significant limitations and complexity. Developers using composite keys often encounter issues with ForeignKey relationships, form validation, admin interface, and migration challenges. Incorrect usage can lead to data integrity problems and application errors.
 
-## Solution
-
+**Solution:**
 Define composite primary keys using constraints:
 
 ```python

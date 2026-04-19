@@ -1,6 +1,11 @@
-# Testing Execution Database Management (MEDIUM-HIGH)
+---
+title: Testing Execution Database Management
+impact: MEDIUM-HIGH
+impactDescription: Ensures efficient test execution and proper database handling
+tags: django, testing, database, execution
+---
 
-**Impact:** MEDIUM-HIGH - Ensures efficient test execution and proper database handling
+## Testing Execution Database Management
 
 **Problem:**
 Poor test execution practices lead to slow test suites, unreliable results, and wasted development time. Improper database management can cause test interference and inconsistent results.

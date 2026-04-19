@@ -1,11 +1,16 @@
-# Impact: CRITICAL
+---
+title: Settings Management
+impact: CRITICAL
+impactDescription: Ensures secure and maintainable configuration across environments
+tags: django, settings, configuration, environment, security
+---
 
-## Problem
+## Settings Management
 
+**Problem:**
 Django settings files often contain sensitive information and configuration that varies between environments. Poor settings management can lead to security breaches, deployment failures, and maintenance issues. Common problems include hardcoded secrets, environment confusion, and runtime modifications.
 
-## Solution
-
+**Solution:**
 Organize settings with environment-specific files:
 
 ```python

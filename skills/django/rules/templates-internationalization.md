@@ -1,6 +1,11 @@
-# Templates Internationalization (MEDIUM-HIGH)
+---
+title: Templates Internationalization
+impact: MEDIUM-HIGH
+impactDescription: Enables global user experience and accessibility
+tags: django, templates, internationalization, i18n
+---
 
-**Impact:** MEDIUM-HIGH - Enables global user experience and accessibility
+## Templates Internationalization
 
 **Problem:**
 Hardcoded text in templates prevents internationalization and limits the application's global reach. Users in different languages cannot understand the interface.

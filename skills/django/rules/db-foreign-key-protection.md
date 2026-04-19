@@ -1,6 +1,11 @@
-# Database Foreign Key Protection (CRITICAL)
+---
+title: Database Foreign Key Protection
+impact: CRITICAL
+impactDescription: Maintains referential integrity and prevents data corruption
+tags: database, django, foreign-keys, integrity
+---
 
-**Impact:** CRITICAL - Maintains referential integrity and prevents data corruption
+## Database Foreign Key Protection
 
 **Problem:**
 Incorrect `on_delete` behavior can lead to orphaned records, data loss, application crashes, or silent data corruption when related objects are deleted.

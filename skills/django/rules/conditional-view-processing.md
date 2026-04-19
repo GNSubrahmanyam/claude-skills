@@ -1,11 +1,16 @@
-# Impact: MEDIUM
+---
+title: Conditional View Processing
+impact: MEDIUM
+impactDescription: Enables efficient HTTP caching and reduces bandwidth usage
+tags: django, views, conditional, caching, performance
+---
 
-## Problem
+## Conditional View Processing
 
+**Problem:**
 Django applications often serve content that hasn't changed since the client's last request, wasting bandwidth and server resources. Without conditional view processing, every request results in full response generation and transmission, even when the content is unchanged. Developers struggle with implementing proper HTTP caching headers and understanding when to use ETags versus Last-Modified.
 
-## Solution
-
+**Solution:**
 Use the `condition` decorator for efficient conditional processing:
 
 ```python

@@ -1,6 +1,11 @@
-# Extensions and Bootsteps Customization (LOW)
+---
+title: Extensions and Bootsteps Customization
+impact: LOW
+impactDescription: Enables advanced customization and extension of Celery behavior
+tags: celery, extensions, bootsteps, customization
+---
 
-**Impact:** LOW - Enables advanced customization and extension of Celery behavior
+## Extensions and Bootsteps Customization
 
 **Problem:**
 Standard Celery configuration may not be sufficient for complex requirements. Organizations need to extend Celery's functionality with custom behaviors, monitoring, security features, or integration with other systems.

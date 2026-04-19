@@ -1,6 +1,11 @@
-# Advanced Model Managers (LOW)
+---
+title: Advanced Model Managers
+impact: LOW
+impactDescription: Provides reusable query logic and encapsulates database operations
+tags: django, models, managers, queries, encapsulation
+---
 
-**Impact:** LOW - Provides reusable query logic and encapsulates database operations
+## Advanced Model Managers
 
 **Problem:**
 Repeated query patterns scattered across views and other code make maintenance difficult and lead to inconsistent data access patterns.

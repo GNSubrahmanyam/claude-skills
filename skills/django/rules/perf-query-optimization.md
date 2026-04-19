@@ -1,6 +1,11 @@
-# Performance Query Optimization (MEDIUM)
+---
+title: Performance Query Optimization
+impact: MEDIUM
+impactDescription: Reduces database load and improves response times
+tags: django, performance, queries, optimization, database
+---
 
-**Impact:** MEDIUM - Reduces database load and improves response times
+## Performance Query Optimization
 
 **Problem:**
 Inefficient database queries are the most common cause of slow Django applications. N+1 queries, missing indexes, and poorly constructed querysets can bring applications to a crawl.

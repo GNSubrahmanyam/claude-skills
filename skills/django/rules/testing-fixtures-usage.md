@@ -1,6 +1,11 @@
-# Testing Fixtures Usage (MEDIUM-HIGH)
+---
+title: Testing Fixtures Usage
+impact: MEDIUM-HIGH
+impactDescription: Ensures consistent and reliable test data
+tags: django, testing, fixtures, test-data
+---
 
-**Impact:** MEDIUM-HIGH - Ensures consistent and reliable test data
+## Testing Fixtures Usage
 
 **Problem:**
 Tests without proper test data setup are brittle, inconsistent, and hard to maintain. Tests that depend on production data or manual data creation lead to flaky test suites.

@@ -1,6 +1,11 @@
-# Forms ModelForm Usage (HIGH)
+---
+title: Forms ModelForm Usage
+impact: HIGH
+impactDescription: Ensures DRY principle and reduces boilerplate code
+tags: django, forms, modelform
+---
 
-**Impact:** HIGH - Ensures DRY principle and reduces boilerplate code
+## Forms ModelForm Usage
 
 **Problem:**
 Writing forms manually for model-backed data leads to code duplication, maintenance overhead, and potential inconsistencies between forms and models.

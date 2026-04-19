@@ -1,6 +1,11 @@
-# REST Framework API Design (MEDIUM-HIGH)
+---
+title: REST Framework API Design
+impact: MEDIUM-HIGH
+impactDescription: Enables scalable and maintainable API development
+tags: django, api, rest-framework, serialization, authentication
+---
 
-**Impact:** MEDIUM-HIGH - Enables scalable and maintainable API development
+## REST Framework API Design
 
 **Problem:**
 Manual API development leads to inconsistent patterns, security issues, and maintenance overhead. Without proper API frameworks, teams struggle with serialization, authentication, and documentation.

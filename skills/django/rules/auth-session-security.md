@@ -1,6 +1,11 @@
-# Authentication Session Security (MEDIUM-HIGH)
+---
+title: Authentication Session Security
+impact: MEDIUM-HIGH
+impactDescription: Prevents session hijacking and fixation attacks
+tags: django, authentication, security, sessions
+---
 
-**Impact:** MEDIUM-HIGH - Prevents session hijacking and fixation attacks
+## Authentication Session Security
 
 **Problem:**
 Improper session configuration can allow attackers to hijack user sessions, perform session fixation attacks, or maintain sessions longer than necessary, compromising user accounts and data.

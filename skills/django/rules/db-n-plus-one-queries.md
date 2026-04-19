@@ -1,6 +1,11 @@
-# Database N+1 Query Prevention (CRITICAL)
+---
+title: Database N+1 Query Prevention
+impact: CRITICAL
+impactDescription: Prevents exponential query growth and performance degradation
+tags: database, django, queries, performance, n-plus-one
+---
 
-**Impact:** CRITICAL - Prevents exponential query growth and performance degradation
+## Database N+1 Query Prevention
 
 **Problem:**
 N+1 query problems occur when code executes one query to fetch main objects, then additional queries for each object's related data, leading to hundreds or thousands of unnecessary database calls.

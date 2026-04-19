@@ -1,6 +1,11 @@
-# Task Calling Methods (HIGH)
+---
+title: Task Calling Methods
+impact: HIGH
+impactDescription: Ensures proper task execution and result handling
+tags: celery, task, calling, methods, execution
+---
 
-**Impact:** HIGH - Ensures proper task execution and result handling
+## Task Calling Methods
 
 **Problem:**
 Different calling methods have different behaviors and performance implications. Using the wrong method can lead to unexpected blocking, lost results, or performance issues.

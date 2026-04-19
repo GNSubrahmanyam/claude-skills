@@ -1,11 +1,16 @@
-# Impact: LOW
+---
+title: Unicode Text Handling
+impact: LOW
+impactDescription: Ensures proper handling of non-ASCII text and encoding
+tags: django, unicode, text, encoding, internationalization
+---
 
-## Problem
+## Unicode Text Handling
 
+**Problem:**
 Django applications handling non-ASCII text can encounter encoding issues, data corruption, and display problems if unicode and text encoding are not handled properly. Python 3 uses unicode strings by default, but developers may still encounter encoding/decoding issues with file I/O, database operations, and HTTP responses.
 
-## Solution
-
+**Solution:**
 Use UTF-8 encoding consistently throughout the application:
 
 ```python

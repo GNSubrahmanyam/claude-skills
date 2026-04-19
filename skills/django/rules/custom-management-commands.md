@@ -1,11 +1,16 @@
-# Impact: MEDIUM
+---
+title: Custom Management Commands
+impact: MEDIUM
+impactDescription: Enables custom CLI operations and maintenance tasks
+tags: django, management-commands, cli, maintenance
+---
 
-## Problem
+## Custom Management Commands
 
+**Problem:**
 Django applications often need custom management commands for data processing, maintenance tasks, imports/exports, and scheduled operations. Developers frequently struggle with command structure, argument parsing, error handling, output formatting, and testing. Poorly implemented commands can cause data corruption, unclear error messages, and difficult maintenance.
 
-## Solution
-
+**Solution:**
 Create commands in `app/management/commands/` directory:
 
 ```python

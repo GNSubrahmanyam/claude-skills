@@ -1,6 +1,11 @@
-# Templates Inheritance Pattern (MEDIUM-HIGH)
+---
+title: Templates Inheritance Pattern
+impact: MEDIUM-HIGH
+impactDescription: Promotes DRY and maintainable templates
+tags: django, templates, inheritance, dry
+---
 
-**Impact:** MEDIUM-HIGH - Promotes DRY and maintainable templates
+## Templates Inheritance Pattern
 
 **Problem:**
 Duplicated HTML structure across templates leads to maintenance issues and violates DRY principles.

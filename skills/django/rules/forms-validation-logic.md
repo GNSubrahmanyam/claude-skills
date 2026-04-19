@@ -1,6 +1,11 @@
-# Forms Validation Logic (HIGH)
+---
+title: Forms Validation Logic
+impact: HIGH
+impactDescription: Ensures data integrity and user experience
+tags: django, forms, validation, integrity
+---
 
-**Impact:** HIGH - Ensures data integrity and user experience
+## Forms Validation Logic
 
 **Problem:**
 Missing or incorrect validation allows invalid data to be stored, leading to application bugs, security issues, and poor user experience.

@@ -1,6 +1,11 @@
-# Forms Error Display (HIGH)
+---
+title: Forms Error Display
+impact: HIGH
+impactDescription: Provides clear feedback to users and prevents repeated submissions
+tags: django, forms, error-handling, user-experience
+---
 
-**Impact:** HIGH - Provides clear feedback to users and prevents repeated submissions
+## Forms Error Display
 
 **Problem:**
 Poor error messages confuse users, lead to repeated form submissions, and increase support requests. Users abandon forms when they don't understand what went wrong.

@@ -1,6 +1,11 @@
-# Deployment Environment Separation (MEDIUM)
+---
+title: Deployment Environment Separation
+impact: MEDIUM
+impactDescription: Prevents configuration conflicts and security issues
+tags: django, deployment, environment, configuration, security
+---
 
-**Impact:** MEDIUM - Prevents configuration conflicts and security issues
+## Deployment Environment Separation
 
 **Problem:**
 Same configuration for development and production leads to security risks, performance issues, and debugging difficulties. Environment-specific settings get mixed up causing deployment failures.

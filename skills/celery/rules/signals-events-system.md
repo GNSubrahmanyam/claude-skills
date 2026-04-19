@@ -1,6 +1,11 @@
-# Signals and Events System (MEDIUM)
+---
+title: Signals and Events System
+impact: MEDIUM
+impactDescription: Enables monitoring, debugging, and extending Celery behavior
+tags: celery, signals, events, monitoring, debugging
+---
 
-**Impact:** MEDIUM - Enables monitoring, debugging, and extending Celery behavior
+## Signals and Events System
 
 **Problem:**
 Without access to Celery's internal events, monitoring task lifecycle, debugging issues, and extending functionality becomes difficult. Important events like task start, success, failure, and worker status changes go unobserved.

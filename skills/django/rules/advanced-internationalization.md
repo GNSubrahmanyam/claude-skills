@@ -1,6 +1,11 @@
-# Advanced Internationalization (LOW)
+---
+title: Advanced Internationalization
+impact: LOW
+impactDescription: Enables complex multilingual applications and locale-specific features
+tags: django, internationalization, i18n, localization, multilingual
+---
 
-**Impact:** LOW - Enables complex multilingual applications and locale-specific features
+## Advanced Internationalization
 
 **Problem:**
 Basic internationalization may not cover complex scenarios like pluralization, context-dependent translations, or locale-specific formatting.

@@ -1,6 +1,11 @@
-# Daemonization and Process Management (MEDIUM)
+---
+title: Daemonization and Process Management
+impact: MEDIUM
+impactDescription: Ensures reliable production deployment and process lifecycle management
+tags: celery, daemonization, process-management, production
+---
 
-**Impact:** MEDIUM - Ensures reliable production deployment and process lifecycle management
+## Daemonization and Process Management
 
 **Problem:**
 Celery workers need to run continuously in production environments, but manual process management leads to reliability issues, difficult monitoring, and improper resource cleanup when processes crash or need to be restarted.

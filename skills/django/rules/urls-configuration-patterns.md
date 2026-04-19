@@ -1,6 +1,11 @@
-# URLs Configuration Patterns (MEDIUM-HIGH)
+---
+title: URLs Configuration Patterns
+impact: MEDIUM-HIGH
+impactDescription: Ensures maintainable and scalable URL structure
+tags: django, urls, configuration, patterns
+---
 
-**Impact:** MEDIUM-HIGH - Ensures maintainable and scalable URL structure
+## URLs Configuration Patterns
 
 **Problem:**
 Poor URL configuration leads to hard-to-maintain code, broken links, and poor SEO. Inconsistent URL patterns make applications harder to navigate and extend.

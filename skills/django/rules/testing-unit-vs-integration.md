@@ -1,6 +1,11 @@
-# Testing Unit vs Integration (MEDIUM-HIGH)
+---
+title: Testing Unit vs Integration
+impact: MEDIUM-HIGH
+impactDescription: Ensures appropriate test coverage and maintainable tests
+tags: django, testing, unit-tests, integration-tests
+---
 
-**Impact:** MEDIUM-HIGH - Ensures appropriate test coverage and maintainable tests
+## Testing Unit vs Integration
 
 **Problem:**
 Wrong test types lead to slow test suites, missed bugs, or brittle tests. Unit tests that mock too much miss integration issues, while integration tests that are too broad are slow and hard to debug.

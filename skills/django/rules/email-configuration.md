@@ -1,6 +1,11 @@
-# Email Sending Configuration (MEDIUM)
+---
+title: Email Configuration
+impact: MEDIUM
+impactDescription: Ensures reliable email delivery and proper configuration
+tags: django, email, configuration, security
+---
 
-**Impact:** MEDIUM - Ensures reliable email delivery and proper configuration
+## Email Configuration
 
 **Problem:**
 Poor email configuration leads to undelivered messages, security vulnerabilities, and poor user experience. Email sending without proper setup can expose sensitive information and fail silently.

@@ -1,11 +1,16 @@
-# Impact: LOW
+---
+title: File Uploads Security
+impact: LOW
+impactDescription: Prevents malicious file upload exploits and security vulnerabilities
+tags: django, security, file-uploads, validation
+---
 
-## Problem
+## File Uploads Security
 
+**Problem:**
 File upload functionality in Django applications can introduce serious security vulnerabilities if not properly implemented. Attackers can exploit file uploads to execute malicious code, perform directory traversal attacks, or overwhelm server resources. Developers often overlook validation, storage security, and access controls when implementing file uploads.
 
-## Solution
-
+**Solution:**
 Implement comprehensive file upload security measures:
 
 ```python

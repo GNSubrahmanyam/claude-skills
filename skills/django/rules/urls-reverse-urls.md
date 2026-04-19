@@ -1,6 +1,11 @@
-# URLs Reverse URLs (MEDIUM-HIGH)
+---
+title: URLs Reverse URLs
+impact: MEDIUM-HIGH
+impactDescription: Ensures maintainable and reliable URL generation
+tags: django, urls, reverse, maintainability
+---
 
-**Impact:** MEDIUM-HIGH - Ensures maintainable and reliable URL generation
+## URLs Reverse URLs
 
 **Problem:**
 Hardcoded URLs throughout templates and views break when URLs change, require manual updates, and are error-prone. Applications become difficult to maintain and refactor.

@@ -1,6 +1,11 @@
-# Canvas Map and Starmap Operations (MEDIUM-HIGH)
+---
+title: Canvas Map and Starmap Operations
+impact: MEDIUM-HIGH
+impactDescription: Enables efficient batch processing and data transformations
+tags: celery, canvas, map, starmap, batch-processing
+---
 
-**Impact:** MEDIUM-HIGH - Enables efficient batch processing and data transformations
+## Canvas Map and Starmap Operations
 
 **Problem:**
 Processing multiple items with similar operations requires efficient patterns. Manual iteration or individual task calls can be inefficient and hard to manage.

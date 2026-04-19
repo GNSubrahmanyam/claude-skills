@@ -1,6 +1,11 @@
-# Forms Security Cleaning (HIGH)
+---
+title: Forms Security Cleaning
+impact: HIGH
+impactDescription: Prevents injection attacks and data corruption
+tags: django, forms, security, validation
+---
 
-**Impact:** HIGH - Prevents injection attacks and data corruption
+## Forms Security Cleaning
 
 **Problem:**
 Form data not properly cleaned can contain malicious content or invalid data, leading to security vulnerabilities, data corruption, and application crashes.

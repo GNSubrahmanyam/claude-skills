@@ -1,6 +1,11 @@
-# Periodic Tasks Celery Beat (MEDIUM-HIGH)
+---
+title: Periodic Tasks Celery Beat
+impact: MEDIUM-HIGH
+impactDescription: Enables reliable scheduled task execution
+tags: celery, periodic, tasks, beat, scheduling
+---
 
-**Impact:** MEDIUM-HIGH - Enables reliable scheduled task execution
+## Periodic Tasks Celery Beat
 
 **Problem:**
 Applications need to execute tasks at regular intervals, but implementing reliable scheduling is complex and error-prone. Missing executions or duplicate runs can cause data inconsistencies and operational issues.

@@ -1,11 +1,16 @@
-# Impact: HIGH
+---
+title: Multi Database Configuration
+impact: HIGH
+impactDescription: Ensures proper multi-database setup and data consistency
+tags: django, database, multi-database
+---
 
-## Problem
+## Multi Database Configuration
 
+**Problem:**
 Multi-database configurations in Django are complex and error-prone. Developers often struggle with database routing, migration synchronization, cross-database relationships, and ensuring data consistency. Incorrect setup can lead to data corruption, performance issues, and application crashes.
 
-## Solution
-
+**Solution:**
 Configure multiple databases in settings with proper aliases:
 
 ```python

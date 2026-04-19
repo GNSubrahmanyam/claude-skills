@@ -1,6 +1,11 @@
-# Advanced Signals Usage (LOW)
+---
+title: Advanced Signals Usage
+impact: LOW
+impactDescription: Enables decoupled component communication and event-driven architecture
+tags: django, signals, decoupling, events
+---
 
-**Impact:** LOW - Enables decoupled component communication and event-driven architecture
+## Advanced Signals Usage
 
 **Problem:**
 Tight coupling between Django components makes code hard to maintain and test. Components that need to react to events from other parts of the application create complex dependencies.

@@ -1,6 +1,11 @@
-# Database Indexes Strategy (CRITICAL)
+---
+title: Database Indexes Strategy
+impact: CRITICAL
+impactDescription: Ensures query performance and prevents slow database operations
+tags: database, django, indexes, performance
+---
 
-**Impact:** CRITICAL - Ensures query performance and prevents slow database operations
+## Database Indexes Strategy
 
 **Problem:**
 Missing database indexes on frequently queried fields cause slow queries, high CPU usage, and poor application performance that can bring down production systems.

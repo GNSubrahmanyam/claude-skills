@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "organization": "claude-skills",
+  "organization": "agentic-skills",
   "name": "redis",
   "abstract": "Comprehensive Redis data structure and caching patterns with prioritized rules across core data types, advanced modules, enterprise features, and production deployment. Use when implementing caching, real-time analytics, session management, or distributed data structures.",
   "categories": [

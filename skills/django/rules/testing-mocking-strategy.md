@@ -1,6 +1,11 @@
-# Testing Mocking Strategy (MEDIUM-HIGH)
+---
+title: Testing Mocking Strategy
+impact: MEDIUM-HIGH
+impactDescription: Ensures tests are isolated, fast, and reliable
+tags: django, testing, mocking, isolation
+---
 
-**Impact:** MEDIUM-HIGH - Ensures tests are isolated, fast, and reliable
+## Testing Mocking Strategy
 
 **Problem:**
 Tests that make real network calls, database queries, or depend on external services are slow, unreliable, and hard to control. Without proper mocking, tests can fail due to external factors.

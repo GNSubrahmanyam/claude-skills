@@ -1,6 +1,11 @@
-# Security HTTPS Only (CRITICAL)
+---
+title: Security HTTPS Only
+impact: CRITICAL
+impactDescription: Protects data in transit and prevents MITM attacks
+tags: security, django, https, ssl
+---
 
-**Impact:** CRITICAL - Protects data in transit and prevents MITM attacks
+## Security HTTPS Only
 
 **Problem:**
 HTTP traffic can be intercepted and modified by attackers, exposing sensitive data and allowing man-in-the-middle attacks that can compromise user sessions and data.

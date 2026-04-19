@@ -1,6 +1,11 @@
-# Remote Control and Worker Inspection (MEDIUM)
+---
+title: Remote Control and Worker Inspection
+impact: MEDIUM
+impactDescription: Enables runtime management and troubleshooting of Celery workers
+tags: celery, remote-control, inspection, workers, management
+---
 
-**Impact:** MEDIUM - Enables runtime management and troubleshooting of Celery workers
+## Remote Control and Worker Inspection
 
 **Problem:**
 Managing distributed Celery workers requires visibility into their state, ability to inspect running tasks, and control over worker behavior. Without remote control capabilities, debugging issues and managing workers becomes difficult.

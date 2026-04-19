@@ -1,6 +1,11 @@
-# Authentication User Management (HIGH)
+---
+title: Authentication User Management
+impact: HIGH
+impactDescription: Ensures secure user authentication and authorization
+tags: django, authentication, security, user-management
+---
 
-**Impact:** HIGH - Ensures secure user authentication and authorization
+## Authentication User Management
 
 **Problem:**
 Improper authentication setup can lead to security vulnerabilities, poor user experience, and data breaches.

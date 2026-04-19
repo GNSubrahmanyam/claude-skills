@@ -1,6 +1,11 @@
-# Templates Performance (MEDIUM)
+---
+title: Templates Performance
+impact: MEDIUM
+impactDescription: Improves page load times and user experience
+tags: django, templates, performance, caching
+---
 
-**Impact:** MEDIUM - Improves page load times and user experience
+## Templates Performance
 
 **Problem:**
 Inefficient template rendering can slow down page loads and waste server resources. Complex template logic, unnecessary includes, and lack of caching can impact performance.

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "organization": "claude-skills",
+  "organization": "agentic-skills",
   "name": "json-logging",
   "abstract": "Comprehensive structured JSON logging framework with prioritized rules across schema design, framework setup, contextual enrichment, security, performance, and enterprise monitoring. Use when implementing observability, compliance logging, or distributed tracing.",
   "categories": [

@@ -1,6 +1,11 @@
-# JWT Token Security (CRITICAL)
+---
+title: JWT Token Security
+impact: CRITICAL
+impactDescription: Protects against unauthorized access and token tampering
+tags: fastapi, security, jwt, authentication
+---
 
-**Impact:** CRITICAL - Protects against unauthorized access and token tampering
+## JWT Token Security
 
 **Problem:**
 Improper JWT implementation can lead to security vulnerabilities, token replay attacks, and unauthorized access to protected resources. Common issues include missing expiration, weak secrets, and improper token validation.

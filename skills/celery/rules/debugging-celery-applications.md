@@ -1,6 +1,11 @@
-# Debugging Celery Applications (HIGH)
+---
+title: Debugging Celery Applications
+impact: HIGH
+impactDescription: Enables effective troubleshooting and issue resolution in distributed systems
+tags: celery, debugging, troubleshooting, distributed-systems
+---
 
-**Impact:** HIGH - Enables effective troubleshooting and issue resolution in distributed systems
+## Debugging Celery Applications
 
 **Problem:**
 Celery's distributed nature makes debugging complex. Without proper debugging techniques, developers struggle to identify root causes of task failures, performance issues, and system-wide problems in production environments.

@@ -1,6 +1,11 @@
-# Task Options and Configuration (HIGH)
+---
+title: Task Options and Configuration
+impact: HIGH
+impactDescription: Ensures proper task behavior and reliability
+tags: celery, task, options, configuration, reliability
+---
 
-**Impact:** HIGH - Ensures proper task behavior and reliability
+## Task Options and Configuration
 
 **Problem:**
 Celery tasks have many configuration options that control behavior, but using defaults can lead to unexpected behavior, performance issues, or reliability problems in production.

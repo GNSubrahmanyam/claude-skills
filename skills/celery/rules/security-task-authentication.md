@@ -1,6 +1,11 @@
-# Security Task Authentication (MEDIUM-HIGH)
+---
+title: Security Task Authentication
+impact: MEDIUM-HIGH
+impactDescription: Prevents unauthorized task execution and access
+tags: celery, security, task, authentication, authorization
+---
 
-**Impact:** MEDIUM-HIGH - Prevents unauthorized task execution and access
+## Security Task Authentication
 
 **Problem:**
 Celery tasks can be invoked from various sources, and without proper authentication, malicious actors could execute tasks or access sensitive operations. Tasks often handle sensitive data or perform privileged operations.

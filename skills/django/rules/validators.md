@@ -1,11 +1,16 @@
-# Impact: MEDIUM
+---
+title: Validators
+impact: MEDIUM
+impactDescription: Ensures data integrity and prevents invalid input
+tags: django, validators, validation, security, data-integrity
+---
 
-## Problem
+## Validators
 
+**Problem:**
 Django applications that accept user input without proper validation can suffer from data corruption, security vulnerabilities, and poor user experience. Without validators, invalid data can enter the database, leading to application crashes or malicious attacks.
 
-## Solution
-
+**Solution:**
 Use Django's built-in validators on model fields and forms:
 
 ```python

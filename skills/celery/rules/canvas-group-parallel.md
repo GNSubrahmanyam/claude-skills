@@ -1,6 +1,11 @@
-# Canvas Group Parallel Execution (HIGH)
+---
+title: Canvas Group Parallel Execution
+impact: HIGH
+impactDescription: Enables parallel task execution for performance optimization
+tags: celery, canvas, group, parallel, performance
+---
 
-**Impact:** HIGH - Enables parallel task execution for performance optimization
+## Canvas Group Parallel Execution
 
 **Problem:**
 Tasks that can run independently should execute in parallel to improve performance, but improper parallelization can lead to resource exhaustion, race conditions, or coordination issues.

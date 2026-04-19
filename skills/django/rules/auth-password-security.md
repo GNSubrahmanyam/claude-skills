@@ -1,6 +1,11 @@
-# Authentication Password Security (MEDIUM-HIGH)
+---
+title: Authentication Password Security
+impact: MEDIUM-HIGH
+impactDescription: Protects user accounts from unauthorized access
+tags: django, authentication, security, passwords
+---
 
-**Impact:** MEDIUM-HIGH - Protects user accounts from unauthorized access
+## Authentication Password Security
 
 **Problem:**
 Weak password policies, improper password storage, or poor password reset mechanisms can lead to compromised user accounts and data breaches.

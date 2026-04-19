@@ -1,6 +1,11 @@
-# Deployment Backup Strategy (MEDIUM)
+---
+title: Deployment Backup Strategy
+impact: MEDIUM
+impactDescription: Ensures data recoverability and business continuity
+tags: django, deployment, backup, recovery
+---
 
-**Impact:** MEDIUM - Ensures data recoverability and business continuity
+## Deployment Backup Strategy
 
 **Problem:**
 Without proper backup strategies, data loss from system failures, human errors, or security incidents can be catastrophic. Missing or inadequate backups can lead to permanent data loss and business downtime.

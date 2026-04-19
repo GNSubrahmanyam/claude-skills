@@ -1,6 +1,11 @@
-# Performance Concurrency Tuning (MEDIUM-HIGH)
+---
+title: Performance Concurrency Tuning
+impact: MEDIUM-HIGH
+impactDescription: Optimizes task processing throughput and resource utilization
+tags: celery, performance, concurrency, tuning, throughput
+---
 
-**Impact:** MEDIUM-HIGH - Optimizes task processing throughput and resource utilization
+## Performance Concurrency Tuning
 
 **Problem:**
 Default Celery worker settings often result in suboptimal performance, either wasting resources or creating bottlenecks. Improper concurrency configuration can lead to slow task processing or system overload.

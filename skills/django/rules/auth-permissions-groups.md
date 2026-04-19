@@ -1,6 +1,11 @@
-# Authentication Permissions Groups (MEDIUM-HIGH)
+---
+title: Authentication Permissions Groups
+impact: MEDIUM-HIGH
+impactDescription: Ensures proper access control and security
+tags: django, authentication, permissions, groups, security
+---
 
-**Impact:** MEDIUM-HIGH - Ensures proper access control and security
+## Authentication Permissions Groups
 
 **Problem:**
 Improper permission management can lead to unauthorized access, data breaches, and inconsistent access control across the application.

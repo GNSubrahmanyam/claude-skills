@@ -1,6 +1,11 @@
-# Configuration Broker Setup (CRITICAL)
+---
+title: Configuration Broker Setup
+impact: CRITICAL
+impactDescription: Ensures reliable message delivery and system stability
+tags: celery, configuration, broker, redis, rabbitmq
+---
 
-**Impact:** CRITICAL - Ensures reliable message delivery and system stability
+## Configuration Broker Setup
 
 **Problem:**
 Improper broker configuration can lead to message loss, connection failures, and unreliable task execution. Celery applications depend on robust message broker setup for distributed task processing.

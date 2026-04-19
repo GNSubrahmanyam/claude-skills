@@ -1,6 +1,11 @@
-# Admin Actions Filters (MEDIUM)
+---
+title: Admin Actions Filters
+impact: MEDIUM
+impactDescription: Improves admin productivity and functionality
+tags: django, admin, actions, filters, productivity
+---
 
-**Impact:** MEDIUM - Improves admin productivity and functionality
+## Admin Actions Filters
 
 **Problem:**
 Default Django admin provides basic functionality but lacks custom actions and advanced filtering that power users need for efficient content management.

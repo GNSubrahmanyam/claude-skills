@@ -1,6 +1,11 @@
-# Task Atomic Operations (CRITICAL)
+---
+title: Task Atomic Operations
+impact: CRITICAL
+impactDescription: Prevents data corruption and ensures task reliability
+tags: celery, task, atomic, reliability, data-integrity
+---
 
-**Impact:** CRITICAL - Prevents data corruption and ensures task reliability
+## Task Atomic Operations
 
 **Problem:**
 Non-atomic tasks can leave systems in inconsistent states when failures occur midway through execution. Distributed task processing increases the risk of partial completion and data corruption.

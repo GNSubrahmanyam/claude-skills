@@ -1,6 +1,11 @@
-# Advanced Generic Views (LOW)
+---
+title: Advanced Generic Views
+impact: LOW
+impactDescription: Reduces boilerplate code and provides consistent CRUD operations
+tags: django, views, generic-views, crud
+---
 
-**Impact:** LOW - Reduces boilerplate code and provides consistent CRUD operations
+## Advanced Generic Views
 
 **Problem:**
 Writing similar view logic repeatedly for common operations like create, read, update, delete (CRUD) leads to code duplication and maintenance issues.

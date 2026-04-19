@@ -1,6 +1,11 @@
-# Caching Strategy Implementation (MEDIUM)
+---
+title: Caching Strategy Implementation
+impact: MEDIUM
+impactDescription: Improves application performance and reduces server load
+tags: django, caching, performance, optimization
+---
 
-**Impact:** MEDIUM - Improves application performance and reduces server load
+## Caching Strategy Implementation
 
 **Problem:**
 Expensive operations repeated on every request waste resources and slow down applications. Database queries, API calls, and complex computations can bring servers to their knees without caching.

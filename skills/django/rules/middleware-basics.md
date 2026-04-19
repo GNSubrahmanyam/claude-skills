@@ -1,11 +1,16 @@
-# Impact: MEDIUM
+---
+title: Middleware Basics
+impact: MEDIUM
+impactDescription: Enables proper request/response processing
+tags: django, middleware
+---
 
-## Problem
+## Middleware Basics
 
+**Problem:**
 Middleware is essential for request/response processing in Django applications, but incorrect implementation can cause performance issues, broken request handling, and unexpected behavior. Developers often struggle with middleware ordering, async compatibility, and proper exception handling.
 
-## Solution
-
+**Solution:**
 Create middleware as a factory function or class:
 
 ```python

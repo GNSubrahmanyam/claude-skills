@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "organization": "claude-skills",
+  "organization": "agentic-skills",
   "name": "celery",
   "abstract": "Comprehensive Celery distributed task processing framework with prioritized rules across configuration, task execution, error handling, and monitoring. Use when implementing background tasks, distributed processing, or asynchronous job queues.",
   "categories": [

@@ -1,6 +1,11 @@
-# Background Tasks Processing (MEDIUM)
+---
+title: Background Tasks Processing
+impact: MEDIUM
+impactDescription: Enables scalable application architecture and improved user experience
+tags: django, background-tasks, async, scalability
+---
 
-**Impact:** MEDIUM - Enables scalable application architecture and improved user experience
+## Background Tasks Processing
 
 **Problem:**
 Long-running tasks in Django views block the response, leading to timeouts, poor user experience, and server overload. Tasks like email sending, file processing, or API calls shouldn't block the main request-response cycle.

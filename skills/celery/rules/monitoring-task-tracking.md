@@ -1,6 +1,11 @@
-# Monitoring Task Tracking (HIGH)
+---
+title: Monitoring Task Tracking
+impact: HIGH
+impactDescription: Enables debugging and performance optimization
+tags: celery, monitoring, task-tracking, observability
+---
 
-**Impact:** HIGH - Enables debugging and performance optimization
+## Monitoring Task Tracking
 
 **Problem:**
 Without proper monitoring, failed tasks go undetected, performance issues remain hidden, and debugging distributed systems becomes nearly impossible. Celery applications require comprehensive observability.

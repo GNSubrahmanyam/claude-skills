@@ -1,6 +1,11 @@
-# Canvas Chord Synchronization (HIGH)
+---
+title: Canvas Chord Synchronization
+impact: HIGH
+impactDescription: Enables complex workflows with parallel execution and synchronization
+tags: celery, canvas, chord, synchronization, workflows
+---
 
-**Impact:** HIGH - Enables complex workflows with parallel execution and synchronization
+## Canvas Chord Synchronization
 
 **Problem:**
 Some workflows require parallel processing followed by a synchronization step that depends on all parallel tasks completing. Without chords, implementing these patterns is complex and error-prone.

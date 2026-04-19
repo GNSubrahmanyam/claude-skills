@@ -1,6 +1,11 @@
-# Testing Django TestCase (MEDIUM-HIGH)
+---
+title: Testing Django TestCase
+impact: MEDIUM-HIGH
+impactDescription: Ensures proper test isolation and Django integration
+tags: django, testing, testcase, isolation
+---
 
-**Impact:** MEDIUM-HIGH - Ensures proper test isolation and Django integration
+## Testing Django TestCase
 
 **Problem:**
 Using wrong test base classes or not leveraging Django's testing utilities leads to slow tests, database conflicts, and missed Django-specific functionality.

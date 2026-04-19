@@ -1,11 +1,16 @@
-# Impact: HIGH
+---
+title: Async Views Tasks
+impact: HIGH
+impactDescription: Enables proper asynchronous operations and performance
+tags: django, async, views, tasks, performance
+---
 
-## Problem
+## Async Views Tasks
 
+**Problem:**
 Django applications using asynchronous features can suffer from performance degradation, blocking operations, and thread-safety issues if async code is not properly implemented. Common issues include mixing synchronous and asynchronous code incorrectly, failing to use proper adapters, and not handling database operations asynchronously.
 
-## Solution
-
+**Solution:**
 Use async views for concurrent operations:
 
 ```python

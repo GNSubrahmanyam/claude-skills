@@ -1,11 +1,16 @@
-# Impact: MEDIUM
+---
+title: Raw SQL Queries
+impact: MEDIUM
+impactDescription: Enables complex queries while maintaining security
+tags: django, database, sql, raw-sql, security
+---
 
-## Problem
+## Raw SQL Queries
 
+**Problem:**
 Django's ORM is powerful but sometimes insufficient for complex queries, performance optimization, or database-specific features. Developers using raw SQL often introduce security vulnerabilities, performance issues, or maintenance problems due to improper parameterization, lack of transactions, or failure to integrate with Django's features.
 
-## Solution
-
+**Solution:**
 Use raw SQL only when ORM cannot meet performance or functionality requirements. Always prioritize security and proper integration.
 
 Use Manager.raw() for queries that return model instances:

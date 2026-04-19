@@ -1,6 +1,11 @@
-# Performance Static File Optimization (MEDIUM)
+---
+title: Performance Static File Optimization
+impact: MEDIUM
+impactDescription: Improves page load times and user experience
+tags: django, performance, static-files, optimization
+---
 
-**Impact:** MEDIUM - Improves page load times and user experience
+## Performance Static File Optimization
 
 **Problem:**
 Poor static file handling leads to slow page loads, unnecessary requests, and poor user experience. Static files not properly optimized can significantly impact website performance.

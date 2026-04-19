@@ -1,6 +1,11 @@
-# Templates Static Files (MEDIUM-HIGH)
+---
+title: Templates Static Files
+impact: MEDIUM-HIGH
+impactDescription: Ensures proper asset management and performance
+tags: django, templates, static-files, performance
+---
 
-**Impact:** MEDIUM-HIGH - Ensures proper asset management and performance
+## Templates Static Files
 
 **Problem:**
 Incorrect static file handling leads to broken links, poor performance, and maintenance issues. Static files not properly configured can prevent CSS, JavaScript, and images from loading.

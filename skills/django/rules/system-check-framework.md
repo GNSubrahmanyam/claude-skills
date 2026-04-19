@@ -1,11 +1,16 @@
-# Impact: LOW
+---
+title: System Check Framework
+impact: LOW
+impactDescription: Validates application configuration and catches issues early
+tags: django, system-check, validation, configuration
+---
 
-## Problem
+## System Check Framework
 
+**Problem:**
 Django applications can have configuration issues, missing settings, or problematic code that only surface at runtime or in production. Without systematic validation, teams waste time debugging issues that could be caught early. Developers struggle with implementing proper validation checks and integrating them with Django's deployment process.
 
-## Solution
-
+**Solution:**
 Create custom system checks to validate application configuration and catch issues early:
 
 ```python

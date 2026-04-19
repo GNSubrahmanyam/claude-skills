@@ -1,6 +1,11 @@
-# Views Function vs Class (HIGH)
+---
+title: Views Function vs Class
+impact: HIGH
+impactDescription: Ensures maintainable and consistent view architecture
+tags: django, views, architecture
+---
 
-**Impact:** HIGH - Ensures maintainable and consistent view architecture
+## Views Function vs Class
 
 **Problem:**
 Choosing the wrong view type can lead to code duplication, poor maintainability, and inconsistent patterns. Function-based views are simpler but can become unwieldy, while class-based views provide structure but can be overkill for simple cases.

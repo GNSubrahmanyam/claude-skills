@@ -1,11 +1,16 @@
-# Impact: LOW
+---
+title: Custom Model Fields
+impact: LOW
+impactDescription: Enables custom database types and complex Python objects
+tags: django, models, fields, custom-fields, database
+---
 
-## Problem
+## Custom Model Fields
 
+**Problem:**
 Django's built-in field types don't cover all database column types or complex Python objects. Developers creating custom fields often struggle with proper serialization, database type mapping, form integration, and migration compatibility. Incorrect field implementation can lead to data corruption, migration failures, and admin interface issues.
 
-## Solution
-
+**Solution:**
 Create custom fields by subclassing Django's Field class with proper conversion methods:
 
 ```python

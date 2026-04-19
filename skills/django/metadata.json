@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "organization": "claude-skills",
+  "organization": "agentic-skills",
   "name": "django",
   "abstract": "Comprehensive Django development framework with prioritized rules across models, views, templates, security, and performance. Use when building Django applications, writing models, creating views, implementing authentication, or optimizing Django projects.",
   "categories": [

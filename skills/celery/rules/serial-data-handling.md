@@ -1,6 +1,11 @@
-# Serialization Data Handling (MEDIUM)
+---
+title: Serialization Data Handling
+impact: MEDIUM
+impactDescription: Ensures reliable data transmission and storage
+tags: celery, serialization, data-handling, message-broker
+---
 
-**Impact:** MEDIUM - Ensures reliable data transmission and storage
+## Serialization Data Handling
 
 **Problem:**
 Improper serialization can lead to data corruption, compatibility issues, or security vulnerabilities when passing complex objects through Celery's message broker.

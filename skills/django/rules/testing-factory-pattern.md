@@ -1,6 +1,11 @@
-# Testing Factory Pattern (MEDIUM-HIGH)
+---
+title: Testing Factory Pattern
+impact: MEDIUM-HIGH
+impactDescription: Enables flexible and maintainable test data creation
+tags: django, testing, factory-pattern, test-data
+---
 
-**Impact:** MEDIUM-HIGH - Enables flexible and maintainable test data creation
+## Testing Factory Pattern
 
 **Problem:**
 Hardcoded test data creation leads to repetitive code, maintenance issues, and tests that are hard to modify. Factories provide a better way to create test data dynamically.

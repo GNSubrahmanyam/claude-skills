@@ -1,6 +1,11 @@
-# Admin Security (MEDIUM)
+---
+title: Admin Security
+impact: MEDIUM
+impactDescription: Protects administrative access and prevents unauthorized admin actions
+tags: django, admin, security, access-control
+---
 
-**Impact:** MEDIUM - Protects administrative access and prevents unauthorized admin actions
+## Admin Security
 
 **Problem:**
 Django admin provides powerful data manipulation capabilities that can be dangerous if not properly secured. Default admin settings may expose sensitive data or allow unauthorized access.

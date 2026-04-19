@@ -1,6 +1,11 @@
-# Deployment Secret Management (MEDIUM)
+---
+title: Deployment Secret Management
+impact: MEDIUM
+impactDescription: Protects sensitive configuration and prevents security breaches
+tags: django, deployment, secrets, security, configuration
+---
 
-**Impact:** MEDIUM - Protects sensitive configuration and prevents security breaches
+## Deployment Secret Management
 
 **Problem:**
 Hardcoded secrets in code or configuration files lead to security breaches when repositories are compromised or files are accidentally exposed.

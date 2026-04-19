@@ -1,11 +1,16 @@
-# Impact: MEDIUM
+---
+title: Signing Cryptography
+impact: MEDIUM
+impactDescription: Protects data integrity and prevents tampering
+tags: django, security, signing, cryptography
+---
 
-## Problem
+## Signing Cryptography
 
+**Problem:**
 Web applications need to protect data integrity and prevent tampering when passing information through untrusted channels. Without proper cryptographic signing, sensitive data like password reset tokens, form values, or temporary access URLs can be manipulated by attackers, leading to security vulnerabilities.
 
-## Solution
-
+**Solution:**
 Use Django's signing framework to protect data integrity:
 
 ```python

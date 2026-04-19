@@ -1,6 +1,11 @@
-# Error Retry Strategy (HIGH)
+---
+title: Error Retry Strategy
+impact: HIGH
+impactDescription: Ensures task reliability and system resilience
+tags: celery, error, retry, strategy, reliability
+---
 
-**Impact:** HIGH - Ensures task reliability and system resilience
+## Error Retry Strategy
 
 **Problem:**
 Tasks can fail due to temporary issues like network timeouts, database locks, or external service unavailability. Without proper retry mechanisms, failed tasks are lost and systems become unreliable.

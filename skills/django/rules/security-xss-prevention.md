@@ -1,6 +1,11 @@
-# Security XSS Prevention (CRITICAL)
+---
+title: Security XSS Prevention
+impact: CRITICAL
+impactDescription: Prevents cross-site scripting attacks
+tags: security, django, xss, templates
+---
 
-**Impact:** CRITICAL - Prevents cross-site scripting attacks
+## Security XSS Prevention
 
 **Problem:**
 User input displayed in templates without proper escaping can execute malicious JavaScript in users' browsers, compromising user sessions and stealing data.

@@ -1,11 +1,16 @@
-# Impact: MEDIUM
+---
+title: HTTP Request Response
+impact: MEDIUM
+impactDescription: Ensures proper web interaction handling
+tags: django, http, request, response, security
+---
 
-## Problem
+## HTTP Request Response
 
+**Problem:**
 Incorrect handling of Django's HttpRequest and HttpResponse objects can lead to security vulnerabilities, data loss, performance issues, and unexpected behavior. Common problems include improper access to request data, insecure cookie handling, and incorrect response formatting.
 
-## Solution
-
+**Solution:**
 Use HttpRequest attributes and methods correctly for data access:
 
 ```python

@@ -1,6 +1,11 @@
-# Canvas Chain Workflows (HIGH)
+---
+title: Canvas Chain Workflows
+impact: HIGH
+impactDescription: Enables sequential task execution and error propagation
+tags: celery, canvas, workflows, chaining
+---
 
-**Impact:** HIGH - Enables sequential task execution and error propagation
+## Canvas Chain Workflows
 
 **Problem:**
 Complex business processes require tasks to execute in sequence, with each task depending on the result of the previous one. Without proper chaining, workflows become error-prone and hard to manage.

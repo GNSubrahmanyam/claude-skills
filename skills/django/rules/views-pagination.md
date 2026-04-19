@@ -1,6 +1,11 @@
-# Views Pagination (HIGH)
+---
+title: Views Pagination
+impact: HIGH
+impactDescription: Prevents memory issues and improves performance
+tags: django, views, pagination, performance
+---
 
-**Impact:** HIGH - Prevents memory issues and improves performance
+## Views Pagination
 
 **Problem:**
 Loading all records at once can cause memory exhaustion, slow page loads, and poor user experience. Large datasets without pagination can bring down servers.

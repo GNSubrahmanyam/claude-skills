@@ -1,6 +1,11 @@
-# URLs Namespaces (MEDIUM-HIGH)
+---
+title: URLs Namespaces
+impact: MEDIUM-HIGH
+impactDescription: Prevents URL conflicts and improves maintainability
+tags: django, urls, namespaces
+---
 
-**Impact:** MEDIUM-HIGH - Prevents URL conflicts and improves maintainability
+## URLs Namespaces
 
 **Problem:**
 Without URL namespaces, similar URL patterns from different apps can conflict, making it impossible to include multiple apps with similar URL structures. Namespaces also make URL reversal more explicit and maintainable.

@@ -1,6 +1,11 @@
-# Templates Context Data (MEDIUM-HIGH)
+---
+title: Templates Context Data
+impact: MEDIUM-HIGH
+impactDescription: Maintains separation of concerns and improves maintainability
+tags: django, templates, context, mvc
+---
 
-**Impact:** MEDIUM-HIGH - Maintains separation of concerns and improves maintainability
+## Templates Context Data
 
 **Problem:**
 Business logic in templates leads to hard-to-maintain code, violates MVC principles, and makes templates difficult to test and reuse.

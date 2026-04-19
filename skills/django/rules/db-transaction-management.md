@@ -1,6 +1,11 @@
-# Database Transaction Management (CRITICAL)
+---
+title: Database Transaction Management
+impact: CRITICAL
+impactDescription: Ensures data consistency and prevents partial updates
+tags: database, django, transactions, consistency
+---
 
-**Impact:** CRITICAL - Ensures data consistency and prevents partial updates
+## Database Transaction Management
 
 **Problem:**
 Related database operations not wrapped in transactions can leave data in inconsistent states if errors occur midway through operations, leading to data corruption and application bugs.

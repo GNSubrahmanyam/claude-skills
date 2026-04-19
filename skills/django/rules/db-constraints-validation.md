@@ -1,6 +1,11 @@
-# Database Constraints Validation (CRITICAL)
+---
+title: Database Constraints Validation
+impact: CRITICAL
+impactDescription: Ensures data integrity and prevents invalid data storage
+tags: database, django, constraints, validation, integrity
+---
 
-**Impact:** CRITICAL - Ensures data integrity and prevents invalid data storage
+## Database Constraints Validation
 
 **Problem:**
 Missing constraints allow invalid data to be stored, leading to application bugs, data corruption, and inconsistent database state.

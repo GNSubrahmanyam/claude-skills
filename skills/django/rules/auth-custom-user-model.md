@@ -1,6 +1,11 @@
-# Authentication Custom User Model (MEDIUM-HIGH)
+---
+title: Authentication Custom User Model
+impact: MEDIUM-HIGH
+impactDescription: Ensures flexibility and future extensibility
+tags: django, authentication, user-model, extensibility
+---
 
-**Impact:** MEDIUM-HIGH - Ensures flexibility and future extensibility
+## Authentication Custom User Model
 
 **Problem:**
 Using Django's default User model can limit customization options and make future changes difficult. The default model may not include necessary fields or relationships for complex applications.

@@ -1,6 +1,11 @@
-# Advanced Middleware Custom (LOW)
+---
+title: Advanced Middleware Custom
+impact: LOW
+impactDescription: Enables request/response processing customization and cross-cutting concerns
+tags: django, middleware, custom, advanced
+---
 
-**Impact:** LOW - Enables request/response processing customization and cross-cutting concerns
+## Advanced Middleware Custom
 
 **Problem:**
 Built-in Django middleware may not cover specific application requirements. Cross-cutting concerns like request logging, response modification, or custom authentication need custom middleware implementation.

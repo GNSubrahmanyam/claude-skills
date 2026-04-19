@@ -1,6 +1,11 @@
-# Deployment Static Files Serving (MEDIUM)
+---
+title: Deployment Static Files Serving
+impact: MEDIUM
+impactDescription: Ensures reliable asset delivery and optimal performance
+tags: django, deployment, static-files, cdn, performance
+---
 
-**Impact:** MEDIUM - Ensures reliable asset delivery and optimal performance
+## Deployment Static Files Serving
 
 **Problem:**
 Incorrect static file serving in production leads to broken CSS/JavaScript, slow page loads, and poor user experience. Static files not properly configured can cause 404 errors or security vulnerabilities.

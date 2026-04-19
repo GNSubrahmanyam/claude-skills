@@ -1,6 +1,11 @@
-# Testing Celery Applications (MEDIUM-HIGH)
+---
+title: Testing Celery Applications
+impact: MEDIUM-HIGH
+impactDescription: Ensures reliability and prevents production issues
+tags: celery, testing, reliability, asynchronous
+---
 
-**Impact:** MEDIUM-HIGH - Ensures reliability and prevents production issues
+## Testing Celery Applications
 
 **Problem:**
 Celery applications are distributed and asynchronous, making testing complex. Without proper testing strategies, bugs can remain undetected until production, causing data corruption, lost tasks, or system failures.

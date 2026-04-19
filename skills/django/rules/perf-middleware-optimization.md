@@ -1,6 +1,11 @@
-# Performance Middleware Optimization (MEDIUM)
+---
+title: Performance Middleware Optimization
+impact: MEDIUM
+impactDescription: Improves request processing speed and reduces overhead
+tags: django, performance, middleware, optimization
+---
 
-**Impact:** MEDIUM - Improves request processing speed and reduces overhead
+## Performance Middleware Optimization
 
 **Problem:**
 Inefficient middleware ordering, unnecessary middleware, or poorly implemented middleware can significantly slow down request processing and increase memory usage.

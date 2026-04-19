@@ -1,6 +1,11 @@
-# Deployment Monitoring Setup (MEDIUM)
+---
+title: Deployment Monitoring Setup
+impact: MEDIUM
+impactDescription: Enables proactive issue detection and performance monitoring
+tags: django, deployment, monitoring, observability
+---
 
-**Impact:** MEDIUM - Enables proactive issue detection and performance monitoring
+## Deployment Monitoring Setup
 
 **Problem:**
 Without monitoring, production issues go undetected, performance problems aren't identified, and debugging becomes difficult. Applications fail silently or degrade without warning.

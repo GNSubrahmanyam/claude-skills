@@ -1,6 +1,11 @@
-# Templates Filters Security (MEDIUM-HIGH)
+---
+title: Templates Filters Security
+impact: MEDIUM-HIGH
+impactDescription: Prevents XSS attacks and maintains content integrity
+tags: django, templates, security, xss, filters
+---
 
-**Impact:** MEDIUM-HIGH - Prevents XSS attacks and maintains content integrity
+## Templates Filters Security
 
 **Problem:**
 The `safe` filter bypasses Django's auto-escaping, potentially allowing XSS attacks when used incorrectly. User input displayed in templates without proper escaping can execute malicious JavaScript.

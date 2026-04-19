@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "organization": "claude-skills",
+  "organization": "agentic-skills",
   "name": "fastapi",
   "abstract": "Comprehensive FastAPI development framework with prioritized rules across async patterns, security, validation, and deployment. Use when building FastAPI applications, implementing APIs, or optimizing async performance.",
   "categories": [

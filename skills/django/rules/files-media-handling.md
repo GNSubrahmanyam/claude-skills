@@ -1,11 +1,16 @@
-# Impact: HIGH
+---
+title: Files Media Handling
+impact: HIGH
+impactDescription: Enables secure and efficient file management
+tags: django, files, media, storage, security
+---
 
-## Problem
+## Files Media Handling
 
+**Problem:**
 Django applications often need to handle file uploads, storage, and serving, but developers frequently encounter issues with file management leading to security vulnerabilities, resource leaks, poor performance, or data corruption. Common problems include file descriptor exhaustion, insecure file access, and improper storage configuration.
 
-## Solution
-
+**Solution:**
 Use Django's `FileField` and `ImageField` for model-based file handling:
 
 ```python

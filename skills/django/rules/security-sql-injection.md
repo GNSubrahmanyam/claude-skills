@@ -1,6 +1,11 @@
-# Security SQL Injection (CRITICAL)
+---
+title: Security SQL Injection
+impact: CRITICAL
+impactDescription: Prevents malicious database manipulation
+tags: security, database, django, sql
+---
 
-**Impact:** CRITICAL - Prevents malicious database manipulation
+## Security SQL Injection
 
 **Problem:**
 SQL injection attacks can compromise entire databases by injecting malicious SQL through user input. Raw SQL queries without proper parameterization are particularly vulnerable.

@@ -1,11 +1,16 @@
-# Impact: MEDIUM
+---
+title: Exceptions Error Handling
+impact: MEDIUM
+impactDescription: Prevents crashes and improves user experience
+tags: django, exceptions, error-handling, security
+---
 
-## Problem
+## Exceptions Error Handling
 
+**Problem:**
 Django applications often encounter errors that need proper handling to prevent crashes, security vulnerabilities, and poor user experience. Without proper exception handling and error views, applications can expose sensitive information, crash unexpectedly, or provide confusing error messages to users.
 
-## Solution
-
+**Solution:**
 Use Django's built-in exceptions for common HTTP errors:
 
 ```python

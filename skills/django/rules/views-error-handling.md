@@ -1,6 +1,11 @@
-# Views Error Handling (HIGH)
+---
+title: Views Error Handling
+impact: HIGH
+impactDescription: Provides better user experience and prevents information leakage
+tags: django, views, error-handling, security
+---
 
-**Impact:** HIGH - Provides better user experience and prevents information leakage
+## Views Error Handling
 
 **Problem:**
 Poor error handling leads to 500 errors, confusing users, exposing sensitive information, and hiding actual problems from developers.

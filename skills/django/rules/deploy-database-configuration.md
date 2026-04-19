@@ -1,6 +1,11 @@
-# Deployment Database Configuration (MEDIUM)
+---
+title: Deployment Database Configuration
+impact: MEDIUM
+impactDescription: Ensures database performance and reliability in production
+tags: django, deployment, database, configuration, performance
+---
 
-**Impact:** MEDIUM - Ensures database performance and reliability in production
+## Deployment Database Configuration
 
 **Problem:**
 Default database settings cause performance issues, connection problems, and reliability issues in production. Improper database configuration can lead to slow queries, connection pool exhaustion, and data corruption.

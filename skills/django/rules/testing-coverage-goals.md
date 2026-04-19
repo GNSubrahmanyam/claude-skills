@@ -1,6 +1,11 @@
-# Testing Coverage Goals (MEDIUM-HIGH)
+---
+title: Testing Coverage Goals
+impact: MEDIUM-HIGH
+impactDescription: Ensures adequate test quality and identifies untested code
+tags: django, testing, coverage, quality
+---
 
-**Impact:** MEDIUM-HIGH - Ensures adequate test quality and identifies untested code
+## Testing Coverage Goals
 
 **Problem:**
 Without coverage metrics, teams don't know how much of their code is tested, leading to gaps in test coverage and potential bugs in production.

@@ -1,6 +1,11 @@
-# Result Backend Selection (MEDIUM-HIGH)
+---
+title: Result Backend Selection
+impact: MEDIUM-HIGH
+impactDescription: Enables task result tracking and retrieval
+tags: celery, result, backend, tracking, retrieval
+---
 
-**Impact:** MEDIUM-HIGH - Enables task result tracking and retrieval
+## Result Backend Selection
 
 **Problem:**
 Without proper result backend configuration, tasks cannot store or retrieve results, making it impossible to track task completion, handle asynchronous workflows, or implement result-dependent operations.

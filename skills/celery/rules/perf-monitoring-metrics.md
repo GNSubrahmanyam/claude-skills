@@ -1,6 +1,11 @@
-# Performance Monitoring Metrics (MEDIUM-HIGH)
+---
+title: Performance Monitoring Metrics
+impact: MEDIUM-HIGH
+impactDescription: Enables performance optimization and issue detection
+tags: celery, performance, monitoring, metrics
+---
 
-**Impact:** MEDIUM-HIGH - Enables performance optimization and issue detection
+## Performance Monitoring Metrics
 
 **Problem:**
 Without comprehensive performance monitoring, Celery applications suffer from undetected bottlenecks, resource waste, and poor user experience. Performance issues often go unnoticed until they cause system failures.

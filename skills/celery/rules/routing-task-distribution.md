@@ -1,6 +1,11 @@
-# Routing Task Distribution (MEDIUM-HIGH)
+---
+title: Routing Task Distribution
+impact: MEDIUM-HIGH
+impactDescription: Ensures efficient task processing and resource utilization
+tags: celery, routing, task-distribution, queues, workers
+---
 
-**Impact:** MEDIUM-HIGH - Ensures efficient task processing and resource utilization
+## Routing Task Distribution
 
 **Problem:**
 Without proper routing, all tasks compete for the same worker resources, leading to inefficient processing, resource contention, and poor performance isolation.

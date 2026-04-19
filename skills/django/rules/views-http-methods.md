@@ -1,6 +1,11 @@
-# Views HTTP Methods (HIGH)
+---
+title: Views HTTP Methods
+impact: HIGH
+impactDescription: Ensures proper RESTful API design and security
+tags: django, views, http, api, security
+---
 
-**Impact:** HIGH - Ensures proper RESTful API design and security
+## Views HTTP Methods
 
 **Problem:**
 Not properly handling different HTTP methods can lead to security vulnerabilities, poor API design, and unexpected behavior. Functions that should only accept POST requests accepting GET requests, or vice versa.

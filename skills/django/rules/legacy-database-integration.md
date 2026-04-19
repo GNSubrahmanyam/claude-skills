@@ -1,11 +1,16 @@
-# Impact: MEDIUM
+---
+title: Legacy Database Integration
+impact: MEDIUM
+impactDescription: Enables integration with existing database systems
+tags: django, database, legacy, integration
+---
 
-## Problem
+## Legacy Database Integration
 
+**Problem:**
 Integrating Django with existing databases is complex and error-prone. Developers struggle with schema introspection, model generation, data migration, and maintaining compatibility with legacy systems. Common issues include incorrect field mappings, missing constraints, data type mismatches, and performance problems with legacy schemas.
 
-## Solution
-
+**Solution:**
 Use Django's inspectdb to generate initial models:
 
 ```python

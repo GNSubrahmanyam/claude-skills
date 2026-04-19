@@ -1,6 +1,11 @@
-# Authentication Social Auth (MEDIUM-HIGH)
+---
+title: Authentication Social Auth
+impact: MEDIUM-HIGH
+impactDescription: Improves user experience and registration conversion
+tags: django, authentication, social-auth, user-experience
+---
 
-**Impact:** MEDIUM-HIGH - Improves user experience and registration conversion
+## Authentication Social Auth
 
 **Problem:**
 Complex registration forms can deter users from signing up. Social authentication provides a familiar, quick way to register and login while maintaining security.
