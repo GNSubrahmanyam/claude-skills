@@ -24,14 +24,14 @@ Reference these guidelines when:
 
 | Priority | Category | Impact | Files | Rules |
 | --- | --- | --- | --- | --- |
-| 1 | Schema Design | CRITICAL | 2 | 6 |
-| 2 | Framework Setup | CRITICAL | 4 | 15 |
-| 3 | Contextual Logging | HIGH | 2 | 5 |
-| 4 | Security & Compliance | HIGH | 2 | 6 |
+| 1 | Schema Design | CRITICAL | 3 | 9 |
+| 2 | Framework Setup | CRITICAL | 3 | 9 |
+| 3 | Contextual Logging | HIGH | 3 | 8 |
+| 4 | Security & Compliance | HIGH | 2 | 7 |
 | 5 | Performance Optimization | MEDIUM-HIGH | 2 | 5 |
 | 6 | Integration & Monitoring | MEDIUM-HIGH | 2 | 4 |
 | 7 | Migration & Adoption | MEDIUM | 1 | 3 |
-| **Total** | **7 Categories** | | **10 Files** | **44 Rules** |
+| **Total** | **7 Categories** | | **12 Files** | **45 Rules** |
 
 ## Quick Reference
 
