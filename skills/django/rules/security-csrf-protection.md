@@ -1,4 +1,11 @@
-# Security CSRF Protection (CRITICAL)
+---
+title: Security CSRF Protection
+impact: CRITICAL
+impactDescription: Prevents cross-site request forgery attacks
+tags: security, csrf, django, forms
+---
+
+## Security CSRF Protection
 
 **Impact:** CRITICAL - Prevents cross-site request forgery attacks
 

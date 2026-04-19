@@ -268,6 +268,28 @@ Each skill is a portable workflow:
 
 👉 Skills act as **plug-in intelligence for AI systems**
 
+## 🛠️ Development & Build
+
+This repository includes automated build tooling for maintaining skills:
+
+### Prerequisites
+```bash
+npm install
+```
+
+### Build Commands
+```bash
+npm run build        # Compile AGENTS.md from rules
+npm run validate     # Validate rule file structure
+npm run extract-tests # Extract test cases for LLM evaluation
+npm run dev          # Run all build steps
+```
+
+### Adding New Rules
+1. Create rule file with frontmatter in `skills/[skill]/rules/`
+2. Run `npm run build` to regenerate compiled documentation
+3. Run `npm run validate` to ensure consistency
+
 ---
 
 ## 🌍 Project Overview

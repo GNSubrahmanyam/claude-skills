@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "organization": "claude-skills",
+  "name": "fastapi",
+  "abstract": "Comprehensive FastAPI development framework with prioritized rules across async patterns, security, validation, and deployment. Use when building FastAPI applications, implementing APIs, or optimizing async performance.",
+  "categories": [
+    "Async & Concurrency",
+    "Security & Authentication",
+    "Validation & Models",
+    "Core Parameters",
+    "API Design",
+    "Data Handling",
+    "Application Structure",
+    "Database & ORM",
+    "Testing",
+    "Performance",
+    "Deployment",
+    "Documentation",
+    "Web Standards",
+    "Development & Debug",
+    "Response Handling",
+    "Advanced Security",
+    "Advanced Patterns"
+  ],
+  "rulesCount": 100
+}

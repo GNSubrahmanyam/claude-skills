@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "organization": "claude-skills",
+  "name": "docker",
+  "abstract": "Comprehensive Docker containerization ecosystem with prioritized rules across container fundamentals, build optimization, orchestration, security, and enterprise deployment. Use when containerizing applications, implementing CI/CD pipelines, or managing distributed systems.",
+  "categories": [
+    "Container Fundamentals",
+    "Docker Build",
+    "Docker Compose",
+    "Orchestration",
+    "Security",
+    "Observability",
+    "Advanced Features",
+    "Application Containers",
+    "Enterprise-grade"
+  ],
+  "rulesCount": 170
+}

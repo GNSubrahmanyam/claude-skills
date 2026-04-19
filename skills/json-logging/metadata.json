@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "organization": "claude-skills",
+  "name": "json-logging",
+  "abstract": "Comprehensive structured JSON logging framework with prioritized rules across schema design, framework setup, contextual enrichment, security, performance, and enterprise monitoring. Use when implementing observability, compliance logging, or distributed tracing.",
+  "categories": [
+    "Schema Design",
+    "Framework Setup",
+    "Contextual Logging",
+    "Security & Compliance",
+    "Performance Optimization",
+    "Integration & Monitoring",
+    "Migration & Adoption"
+  ],
+  "rulesCount": 170
+}

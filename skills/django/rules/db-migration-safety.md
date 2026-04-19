@@ -1,6 +1,11 @@
-# Database Migration Safety (CRITICAL)
+---
+title: Database Migration Safety
+impact: CRITICAL
+impactDescription: Prevents database corruption and data loss
+tags: database, django, migrations
+---
 
-**Impact:** CRITICAL - Prevents database corruption and data loss
+## Database Migration Safety
 
 **Problem:**
 Manual modification of migration files can lead to database inconsistencies, deployment failures, and data corruption. Migration files should be treated as immutable once applied.
