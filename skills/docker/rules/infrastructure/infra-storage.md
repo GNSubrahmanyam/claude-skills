@@ -1,5 +1,11 @@
-# Docker Storage Management
-**Impact:** MEDIUM - Ensures persistent data management and backup strategies for containerized applications
+---
+title: Docker Storage Management
+impact: MEDIUM
+impactDescription: Ensures persistent data management and backup strategies for containerized applications
+tags: docker, storage, persistence, backup, data-lifecycle
+---
+
+## Docker Storage Management
 
 **Problem:**
 Container storage is ephemeral by default, leading to data loss on container restarts. Applications require persistent storage, backup strategies, and data lifecycle management for production reliability.

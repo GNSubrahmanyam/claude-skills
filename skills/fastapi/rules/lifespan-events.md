@@ -1,6 +1,11 @@
-# Lifespan Events (MEDIUM)
+---
+title: Lifespan Events
+impact: MEDIUM
+impactDescription: Enables proper application initialization and cleanup
+tags: fastapi, lifespan, events, initialization, cleanup
+---
 
-**Impact:** MEDIUM - Enables proper application initialization and cleanup
+## Lifespan Events
 
 **Problem:**
 Applications need to perform setup and teardown operations like database connections, cache initialization, and background task management. Manual lifecycle management leads to resource leaks and inconsistent state.

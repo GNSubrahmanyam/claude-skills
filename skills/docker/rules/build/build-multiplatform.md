@@ -1,5 +1,11 @@
-# Multi-Platform Builds
-**Impact:** CRITICAL - Enables building container images for multiple architectures and operating systems
+---
+title: Multi-Platform Builds
+impact: CRITICAL
+impactDescription: Enables building container images for multiple architectures and operating systems
+tags: docker, multi-platform, buildx, architectures, cross-compilation
+---
+
+## Multi-Platform Builds
 
 **Problem:**
 Applications need to run on diverse hardware (x86, ARM) and operating systems (Linux, Windows). Building separate images for each platform is time-consuming, error-prone, and leads to maintenance overhead. Teams struggle with platform-specific bugs and deployment inconsistencies.

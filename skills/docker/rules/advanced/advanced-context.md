@@ -1,5 +1,11 @@
-# Docker Context Management
-**Impact:** LOW - Enables seamless management of multiple Docker environments and deployments
+---
+title: Docker Context Management
+impact: LOW
+impactDescription: Enables seamless management of multiple Docker environments and deployments
+tags: docker, context, environments, remote-hosts
+---
+
+## Docker Context Management
 
 **Problem:**
 Teams work with multiple Docker environments (local, development, staging, production). Switching between environments manually is error-prone and time-consuming. Docker contexts provide a clean way to manage multiple Docker installations and remote hosts.

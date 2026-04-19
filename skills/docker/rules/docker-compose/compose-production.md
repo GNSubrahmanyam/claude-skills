@@ -1,6 +1,11 @@
-# Docker Compose Production (HIGH)
+---
+title: Docker Compose Production
+impact: HIGH
+impactDescription: Enables reliable production multi-service deployments
+tags: docker, compose, production, deployment, orchestration
+---
 
-**Impact:** HIGH - Enables reliable production multi-service deployments
+## Docker Compose Production
 
 **Problem:**
 Production deployments require proper service orchestration, health checks, resource limits, and security configurations. Simple development setups don't scale to production requirements.

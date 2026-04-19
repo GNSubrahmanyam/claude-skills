@@ -1,5 +1,11 @@
-# Docker Logging Drivers and Configuration
-**Impact:** MEDIUM - Enables effective log collection, aggregation, and monitoring for containerized applications
+---
+title: Docker Logging Drivers and Configuration
+impact: MEDIUM
+impactDescription: Enables effective log collection, aggregation, and monitoring for containerized applications
+tags: docker, logging, drivers, aggregation, monitoring
+---
+
+## Docker Logging Drivers and Configuration
 
 **Problem:**
 Container logs are scattered across hosts and containers, making debugging difficult. Default logging doesn't provide centralized logging, log rotation, or structured logging. Without proper logging, troubleshooting production issues becomes challenging.

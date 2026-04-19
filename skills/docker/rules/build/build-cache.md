@@ -1,5 +1,11 @@
-# Build Caching
-**Impact:** CRITICAL - Accelerates build times and reduces resource consumption through intelligent caching
+---
+title: Build Caching
+impact: CRITICAL
+impactDescription: Accelerates build times and reduces resource consumption through intelligent caching
+tags: docker, build, caching, performance, ci-cd
+---
+
+## Build Caching
 
 **Problem:**
 Container builds are slow and resource-intensive without proper caching. Rebuilding unchanged layers wastes time and compute resources. Teams experience long build times, especially in CI/CD pipelines, leading to slower development cycles and higher costs.

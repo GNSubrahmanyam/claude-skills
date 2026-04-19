@@ -1,6 +1,11 @@
-# Path Parameters (HIGH)
+---
+title: Path Parameters
+impact: HIGH
+impactDescription: Enables dynamic URL routing and resource identification
+tags: fastapi, path-parameters, routing, validation
+---
 
-**Impact:** HIGH - Enables dynamic URL routing and resource identification
+## Path Parameters
 
 **Problem:**
 Hardcoded URLs make APIs inflexible and difficult to maintain. Path parameters allow dynamic resource identification but improper handling can lead to routing conflicts and security issues.

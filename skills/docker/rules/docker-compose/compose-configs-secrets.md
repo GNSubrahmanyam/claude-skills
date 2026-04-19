@@ -1,5 +1,11 @@
-# Docker Compose Configs and Secrets
-**Impact:** HIGH - Enables secure configuration management and sensitive data handling in multi-container applications
+---
+title: Docker Compose Configs and Secrets
+impact: HIGH
+impactDescription: Enables secure configuration management and sensitive data handling in multi-container applications
+tags: docker, compose, configs, secrets, security
+---
+
+## Docker Compose Configs and Secrets
 
 **Problem:**
 Applications require configuration data and sensitive information like API keys, database credentials, and certificates. Improper handling exposes secrets in images, environment variables, or version control. Configs and secrets management is essential for security and maintainability.

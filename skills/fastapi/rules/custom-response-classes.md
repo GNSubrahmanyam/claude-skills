@@ -1,6 +1,11 @@
-# Custom Response Classes (MEDIUM)
+---
+title: Custom Response Classes
+impact: MEDIUM
+impactDescription: Enables flexible response formatting and specialized content types
+tags: fastapi, response, classes, custom, content-types
+---
 
-**Impact:** MEDIUM - Enables flexible response formatting and specialized content types
+## Custom Response Classes
 
 **Problem:**
 Standard JSON responses are sufficient for most APIs, but some applications need custom response formats, binary data, HTML responses, or specialized content types.

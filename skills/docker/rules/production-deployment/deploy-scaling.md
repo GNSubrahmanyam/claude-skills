@@ -1,6 +1,11 @@
-# Scaling and Load Balancing (HIGH)
+---
+title: Scaling and Load Balancing
+impact: HIGH
+impactDescription: Enables horizontal scaling and high availability for containerized applications
+tags: docker, scaling, load-balancing, high-availability, deployment
+---
 
-**Impact:** HIGH - Enables horizontal scaling and high availability for containerized applications
+## Scaling and Load Balancing
 
 **Problem:**
 Single container instances can't handle high traffic or provide fault tolerance. Applications need scaling capabilities for reliability and performance.

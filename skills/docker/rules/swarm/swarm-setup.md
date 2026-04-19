@@ -1,5 +1,11 @@
-# Docker Swarm Setup and Management
-**Impact:** HIGH - Enables cluster orchestration for scalable, highly available container deployments
+---
+title: Docker Swarm Setup and Management
+impact: HIGH
+impactDescription: Enables cluster orchestration for scalable, highly available container deployments
+tags: docker, swarm, setup, cluster, orchestration
+---
+
+## Docker Swarm Setup and Management
 
 **Problem:**
 Single Docker hosts cannot provide high availability, load balancing, or scaling capabilities. Applications require clustering for production reliability. Docker Swarm provides native clustering without external orchestration tools.

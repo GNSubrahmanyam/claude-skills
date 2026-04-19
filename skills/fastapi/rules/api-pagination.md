@@ -1,6 +1,11 @@
-# API Pagination (HIGH)
+---
+title: API Pagination
+impact: HIGH
+impactDescription: Prevents performance issues with large datasets
+tags: fastapi, api, pagination, performance
+---
 
-**Impact:** HIGH - Prevents performance issues with large datasets
+## API Pagination
 
 **Problem:**
 Returning all records without pagination can cause performance issues, memory exhaustion, and slow response times. Large result sets can crash applications or make responses unusable.

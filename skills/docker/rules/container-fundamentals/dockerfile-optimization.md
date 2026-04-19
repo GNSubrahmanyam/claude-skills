@@ -1,6 +1,11 @@
-# Dockerfile Optimization (CRITICAL)
+---
+title: Dockerfile Optimization
+impact: CRITICAL
+impactDescription: Ensures fast builds, small images, and efficient deployments
+tags: docker, dockerfile, optimization, builds, images
+---
 
-**Impact:** CRITICAL - Ensures fast builds, small images, and efficient deployments
+## Dockerfile Optimization
 
 **Problem:**
 Poorly optimized Dockerfiles result in slow build times, large image sizes, and inefficient deployments. Layer caching issues and unnecessary dependencies increase build times and storage costs.

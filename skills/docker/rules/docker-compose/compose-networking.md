@@ -1,6 +1,11 @@
-# Docker Compose Networking (HIGH)
+---
+title: Docker Compose Networking
+impact: HIGH
+impactDescription: Enables secure and efficient inter-container communication
+tags: docker, compose, networking, security, inter-container
+---
 
-**Impact:** HIGH - Enables secure and efficient inter-container communication
+## Docker Compose Networking
 
 **Problem:**
 Multi-service applications need proper networking for communication, but default Docker networking can expose services unnecessarily and create security vulnerabilities.

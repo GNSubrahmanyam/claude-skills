@@ -1,6 +1,11 @@
-# Body Updates & Partial Data (HIGH)
+---
+title: Body Updates & Partial Data
+impact: HIGH
+impactDescription: Enables efficient resource updates and proper REST API design
+tags: fastapi, body, updates, partial-data, patch
+---
 
-**Impact:** HIGH - Enables efficient resource updates and proper REST API design
+## Body Updates & Partial Data
 
 **Problem:**
 APIs need to support partial updates (PATCH operations) where clients can update only specific fields without sending complete resource data. Full updates (PUT) require all fields, while partial updates allow flexible modifications.

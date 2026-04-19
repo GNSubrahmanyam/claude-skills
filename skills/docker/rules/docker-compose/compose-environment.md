@@ -1,5 +1,11 @@
-# Docker Compose Environment Variables
-**Impact:** HIGH - Enables dynamic, secure, and environment-specific configuration management
+---
+title: Docker Compose Environment Variables
+impact: HIGH
+impactDescription: Enables dynamic, secure, and environment-specific configuration management
+tags: docker, compose, environment, variables, configuration
+---
+
+## Docker Compose Environment Variables
 
 **Problem:**
 Hardcoded values in compose files make deployments inflexible and insecure. Different environments (dev, staging, prod) require different configurations. Manual value replacement is error-prone and doesn't scale. Environment variables provide the solution but require proper implementation.

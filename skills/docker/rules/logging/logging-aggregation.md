@@ -1,5 +1,11 @@
-# Docker Log Aggregation and Monitoring
-**Impact:** MEDIUM - Enables centralized log management, real-time monitoring, and proactive issue detection
+---
+title: Docker Log Aggregation and Monitoring
+impact: MEDIUM
+impactDescription: Enables centralized log management, real-time monitoring, and proactive issue detection
+tags: docker, logging, aggregation, monitoring, alerting
+---
+
+## Docker Log Aggregation and Monitoring
 
 **Problem:**
 Distributed container logs are difficult to correlate and analyze. Without aggregation, monitoring blind spots exist. Teams can't detect issues early or perform effective root cause analysis across services.

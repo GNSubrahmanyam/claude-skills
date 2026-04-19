@@ -1,6 +1,11 @@
-# Monitoring & Observability (MEDIUM)
+---
+title: Monitoring & Observability
+impact: MEDIUM
+impactDescription: Enables proactive issue detection and performance monitoring
+tags: fastapi, monitoring, observability, logging, metrics
+---
 
-**Impact:** MEDIUM - Enables proactive issue detection and performance monitoring
+## Monitoring & Observability
 
 **Problem:**
 Production APIs without monitoring become black boxes when issues occur. Performance problems, errors, and usage patterns remain invisible.

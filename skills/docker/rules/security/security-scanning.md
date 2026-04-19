@@ -1,5 +1,11 @@
-# Docker Scout Security Scanning
-**Impact:** HIGH - Enables proactive vulnerability detection and security compliance in container images
+---
+title: Docker Scout Security Scanning
+impact: HIGH
+impactDescription: Enables proactive vulnerability detection and security compliance in container images
+tags: docker, security, scanning, vulnerabilities, scout
+---
+
+## Docker Scout Security Scanning
 
 **Problem:**
 Container images can contain security vulnerabilities from base images, dependencies, or application code. Without scanning, vulnerable images reach production. Docker Scout provides comprehensive vulnerability scanning and security insights.

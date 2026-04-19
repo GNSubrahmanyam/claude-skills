@@ -1,5 +1,11 @@
-# Build Security
-**Impact:** CRITICAL - Ensures secure build processes with proper secret handling, authentication, and artifact verification
+---
+title: Build Security
+impact: CRITICAL
+impactDescription: Ensures secure build processes with proper secret handling, authentication, and artifact verification
+tags: docker, build, security, secrets, attestation
+---
+
+## Build Security
 
 **Problem:**
 Builds often require access to sensitive information like API keys, SSH keys, and tokens. Improper handling exposes secrets in images or build logs. Lack of provenance and SBOM generation makes it difficult to track dependencies and verify build integrity.

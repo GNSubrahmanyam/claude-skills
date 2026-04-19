@@ -1,6 +1,11 @@
-# Hot Reloading Development (MEDIUM)
+---
+title: Hot Reloading Development
+impact: MEDIUM
+impactDescription: Enables fast development iteration cycles
+tags: docker, development, hot-reload, productivity, iteration
+---
 
-**Impact:** MEDIUM - Enables fast development iteration cycles
+## Hot Reloading Development
 
 **Problem:**
 Development workflows are slow without hot reloading, requiring manual container rebuilds and restarts for code changes. This breaks development productivity and increases iteration time.

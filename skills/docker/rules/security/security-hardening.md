@@ -1,5 +1,11 @@
-# Container Runtime Security Hardening
-**Impact:** HIGH - Protects running containers from attacks and unauthorized access
+---
+title: Container Runtime Security Hardening
+impact: HIGH
+impactDescription: Protects running containers from attacks and unauthorized access
+tags: docker, security, hardening, runtime, containers
+---
+
+## Container Runtime Security Hardening
 
 **Problem:**
 Containers run with elevated privileges by default, exposing attack surfaces. Without hardening, containers can be compromised, leading to data breaches or system compromise. Runtime security requires multiple layers of protection.

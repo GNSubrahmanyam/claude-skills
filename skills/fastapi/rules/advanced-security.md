@@ -1,6 +1,11 @@
-# Advanced Security (HIGH)
+---
+title: Advanced Security
+impact: HIGH
+impactDescription: Protects against sophisticated attacks and ensures enterprise-grade security
+tags: fastapi, security, oauth2, rbac, authentication
+---
 
-**Impact:** HIGH - Protects against sophisticated attacks and ensures enterprise-grade security
+## Advanced Security
 
 **Problem:**
 Basic JWT authentication is insufficient for enterprise applications. Advanced threats require multi-layered security including API keys, OAuth2, role-based access control, and protection against common web vulnerabilities.

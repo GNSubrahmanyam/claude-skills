@@ -1,6 +1,11 @@
-# Metadata & Docs URLs (MEDIUM)
+---
+title: Metadata & Docs URLs
+impact: MEDIUM
+impactDescription: Customizes API documentation and metadata for better developer experience
+tags: fastapi, metadata, docs, documentation, developer-experience
+---
 
-**Impact:** MEDIUM - Customizes API documentation and metadata for better developer experience
+## Metadata & Docs URLs
 
 **Problem:**
 Default FastAPI documentation URLs and metadata may not fit enterprise requirements. APIs need customized documentation endpoints, metadata, and branding.

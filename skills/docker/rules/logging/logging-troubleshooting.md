@@ -1,5 +1,11 @@
-# Docker Container Debugging and Troubleshooting
-**Impact:** MEDIUM - Enables effective diagnosis and resolution of container issues in development and production
+---
+title: Docker Container Debugging and Troubleshooting
+impact: MEDIUM
+impactDescription: Enables effective diagnosis and resolution of container issues in development and production
+tags: docker, debugging, troubleshooting, containers, diagnosis
+---
+
+## Docker Container Debugging and Troubleshooting
 
 **Problem:**
 Containerized applications are complex with multiple interacting components. Debugging requires understanding container internals, networking, and orchestration. Without proper troubleshooting tools, issues remain unresolved, impacting development velocity and production stability.

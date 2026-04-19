@@ -1,5 +1,11 @@
-# Docker Desktop Features and Development
-**Impact:** LOW - Enhances development experience with GUI tools and integrated features
+---
+title: Docker Desktop Features and Development
+impact: LOW
+impactDescription: Enhances development experience with GUI tools and integrated features
+tags: docker, desktop, development, gui
+---
+
+## Docker Desktop Features and Development
 
 **Problem:**
 Docker Desktop provides a user-friendly interface and additional features beyond the CLI. Teams miss out on productivity gains, Kubernetes integration, and development tools available in Docker Desktop.

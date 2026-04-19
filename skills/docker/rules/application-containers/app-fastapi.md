@@ -1,6 +1,11 @@
-# FastAPI Containerization (CRITICAL)
+---
+title: FastAPI Containerization
+impact: CRITICAL
+impactDescription: Ensures optimal FastAPI performance and async handling in containers
+tags: docker, fastapi, containerization, async, uvicorn
+---
 
-**Impact:** CRITICAL - Ensures optimal FastAPI performance and async handling in containers
+## FastAPI Containerization
 
 **Problem:**
 FastAPI applications require specific containerization for async workers, proper signal handling, and optimized ASGI server configuration. Incorrect containerization leads to poor async performance, memory leaks, and unreliable deployments.

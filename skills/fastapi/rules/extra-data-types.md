@@ -1,6 +1,11 @@
-# Extra Data Types & JSON Encoding (MEDIUM)
+---
+title: Extra Data Types & JSON Encoding
+impact: MEDIUM
+impactDescription: Enables proper handling of complex data types and custom serialization
+tags: fastapi, data-types, json, serialization, encoding
+---
 
-**Impact:** MEDIUM - Enables proper handling of complex data types and custom serialization
+## Extra Data Types & JSON Encoding
 
 **Problem:**
 APIs need to handle complex data types like UUIDs, datetimes, enums, and custom objects. Default JSON serialization may not handle these properly, leading to serialization errors or inconsistent data formats.

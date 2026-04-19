@@ -1,6 +1,11 @@
-# Celery Containerization (CRITICAL)
+---
+title: Celery Containerization
+impact: CRITICAL
+impactDescription: Ensures reliable Celery worker deployment in containers
+tags: docker, celery, containerization, workers, deployment
+---
 
-**Impact:** CRITICAL - Ensures reliable Celery worker deployment in containers
+## Celery Containerization
 
 **Problem:**
 Celery workers require proper containerization for broker connections, result backends, logging, and graceful shutdown. Incorrect containerization leads to connection issues, memory leaks, and unreliable task processing.

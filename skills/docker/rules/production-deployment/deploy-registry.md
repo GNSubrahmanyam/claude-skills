@@ -1,6 +1,11 @@
-# Container Registry Management (HIGH)
+---
+title: Container Registry Management
+impact: HIGH
+impactDescription: Ensures secure and efficient container distribution
+tags: docker, registry, security, versioning, distribution
+---
 
-**Impact:** HIGH - Ensures secure and efficient container distribution
+## Container Registry Management
 
 **Problem:**
 Container images need secure storage, versioning, and distribution. Poor registry management leads to security vulnerabilities, version confusion, and deployment issues.

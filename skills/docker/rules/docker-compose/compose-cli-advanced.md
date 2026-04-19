@@ -1,5 +1,11 @@
-# Docker Compose Advanced CLI
-**Impact:** HIGH - Enables efficient project management, debugging, and advanced compose operations
+---
+title: Docker Compose Advanced CLI
+impact: HIGH
+impactDescription: Enables efficient project management, debugging, and advanced compose operations
+tags: docker, compose, cli, debugging, automation
+---
+
+## Docker Compose Advanced CLI
 
 **Problem:**
 Basic docker compose up/down commands are insufficient for complex workflows. Teams need advanced CLI features for debugging, project isolation, service management, and automation. Without proper CLI usage, development and deployment processes become inefficient and error-prone.

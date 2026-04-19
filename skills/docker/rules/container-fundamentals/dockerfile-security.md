@@ -1,6 +1,11 @@
-# Dockerfile Security (CRITICAL)
+---
+title: Dockerfile Security
+impact: CRITICAL
+impactDescription: Prevents container-based security vulnerabilities and breaches
+tags: docker, dockerfile, security, vulnerabilities, best-practices
+---
 
-**Impact:** CRITICAL - Prevents container-based security vulnerabilities and breaches
+## Dockerfile Security
 
 **Problem:**
 Containers can expose applications to security risks through vulnerable base images, improper user permissions, and exposed sensitive data. Insecure Dockerfiles lead to compromised production environments and data breaches.

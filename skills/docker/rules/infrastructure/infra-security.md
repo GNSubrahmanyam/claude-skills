@@ -1,6 +1,11 @@
-# Container Runtime Security (MEDIUM)
+---
+title: Container Runtime Security
+impact: MEDIUM
+impactDescription: Protects running containers from attacks and exploits
+tags: docker, security, runtime, containers, isolation
+---
 
-**Impact:** MEDIUM - Protects running containers from attacks and exploits
+## Container Runtime Security
 
 **Problem:**
 Running containers are vulnerable to attacks if not properly secured. Default configurations often expose unnecessary attack surfaces and privilege escalation vectors.

@@ -1,6 +1,11 @@
-# Image Management (CRITICAL)
+---
+title: Image Management
+impact: CRITICAL
+impactDescription: Ensures reliable container deployments and rollback capabilities
+tags: docker, images, management, registry, tagging
+---
 
-**Impact:** CRITICAL - Ensures reliable container deployments and rollback capabilities
+## Image Management
 
 **Problem:**
 Poor image tagging and registry management leads to deployment confusion, security vulnerabilities from outdated images, and inability to rollback when issues occur.

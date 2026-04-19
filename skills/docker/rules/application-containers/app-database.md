@@ -1,6 +1,11 @@
-# Database Containerization (CRITICAL)
+---
+title: Database Containerization
+impact: CRITICAL
+impactDescription: Ensures reliable database deployment in containerized environments
+tags: docker, database, containerization, persistence, security
+---
 
-**Impact:** CRITICAL - Ensures reliable database deployment in containerized environments
+## Database Containerization
 
 **Problem:**
 Databases in containers require proper configuration, persistence, initialization, and backup strategies. Incorrect containerization leads to data loss, performance issues, and security vulnerabilities.

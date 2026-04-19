@@ -1,6 +1,11 @@
-# Rate Limiting (HIGH)
+---
+title: Rate Limiting
+impact: HIGH
+impactDescription: Protects against abuse and ensures fair resource usage
+tags: fastapi, security, rate-limiting, abuse-protection
+---
 
-**Impact:** HIGH - Protects against abuse and ensures fair resource usage
+## Rate Limiting
 
 **Problem:**
 APIs without rate limiting can be overwhelmed by abusive clients, leading to degraded performance, increased costs, and potential service outages.

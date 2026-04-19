@@ -1,5 +1,11 @@
-# Docker Swarm Networking
-**Impact:** HIGH - Enables secure, scalable inter-service communication in Swarm clusters
+---
+title: Docker Swarm Networking
+impact: HIGH
+impactDescription: Enables secure, scalable inter-service communication in Swarm clusters
+tags: docker, swarm, networking, overlay, security
+---
+
+## Docker Swarm Networking
 
 **Problem:**
 Multi-service applications require secure communication between containers across different nodes. Default networking doesn't provide encryption, service discovery, or load balancing. Swarm networking provides overlay networks with built-in security and service mesh capabilities.

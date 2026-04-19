@@ -1,6 +1,11 @@
-# Dockerfile Best Practices (CRITICAL)
+---
+title: Dockerfile Best Practices
+impact: CRITICAL
+impactDescription: Ensures reliable and maintainable container builds
+tags: docker, dockerfile, best-practices, builds, maintainability
+---
 
-**Impact:** CRITICAL - Ensures reliable and maintainable container builds
+## Dockerfile Best Practices
 
 **Problem:**
 Inconsistent Dockerfile practices lead to unreliable builds, maintenance issues, and production failures. Without standardized practices, containers become difficult to debug and maintain.

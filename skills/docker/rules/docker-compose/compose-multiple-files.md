@@ -1,5 +1,11 @@
-# Docker Compose Multiple Files
-**Impact:** HIGH - Enables modular, maintainable, and environment-specific compose configurations
+---
+title: Docker Compose Multiple Files
+impact: HIGH
+impactDescription: Enables modular, maintainable, and environment-specific compose configurations
+tags: docker, compose, multiple-files, modular, environment-specific
+---
+
+## Docker Compose Multiple Files
 
 **Problem:**
 Complex applications require different configurations for development, testing, and production. Single large compose files become unmaintainable. Teams need to share common services while customizing per environment. Without proper file organization, configurations become duplicated and error-prone.

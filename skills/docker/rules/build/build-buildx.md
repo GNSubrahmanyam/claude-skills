@@ -1,5 +1,11 @@
-# Buildx Advanced Builds
-**Impact:** CRITICAL - Enables efficient, scalable, and feature-rich container builds using BuildKit
+---
+title: Buildx Advanced Builds
+impact: CRITICAL
+impactDescription: Enables efficient, scalable, and feature-rich container builds using BuildKit
+tags: docker, buildx, buildkit, builds, advanced
+---
+
+## Buildx Advanced Builds
 
 **Problem:**
 Default Docker builds lack advanced features for complex scenarios, leading to slow builds, limited caching, and inability to handle multi-platform or distributed builds. Teams struggle with build consistency, performance, and deployment across different environments.

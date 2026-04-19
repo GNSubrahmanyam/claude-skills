@@ -1,6 +1,11 @@
-# Docker Compose Development (HIGH)
+---
+title: Docker Compose Development
+impact: HIGH
+impactDescription: Enables consistent multi-service development environments
+tags: docker, compose, development, multi-service, environments
+---
 
-**Impact:** HIGH - Enables consistent multi-service development environments
+## Docker Compose Development
 
 **Problem:**
 Modern applications consist of multiple services (web app, API, database, cache, background workers). Managing these services individually leads to environment inconsistencies, complex setup processes, and development friction.

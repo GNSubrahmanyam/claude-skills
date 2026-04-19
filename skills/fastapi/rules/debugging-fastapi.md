@@ -1,6 +1,11 @@
-# Debugging FastAPI Applications (MEDIUM)
+---
+title: Debugging FastAPI Applications
+impact: MEDIUM
+impactDescription: Enables effective troubleshooting and development workflow
+tags: fastapi, debugging, troubleshooting, development
+---
 
-**Impact:** MEDIUM - Enables effective troubleshooting and development workflow
+## Debugging FastAPI Applications
 
 **Problem:**
 FastAPI applications can be difficult to debug without proper development setup, logging, and debugging tools. Production issues are hard to reproduce and diagnose.

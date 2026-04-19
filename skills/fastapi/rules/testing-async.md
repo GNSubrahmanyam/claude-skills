@@ -1,6 +1,11 @@
-# Async Testing Setup (MEDIUM-HIGH)
+---
+title: Async Testing Setup
+impact: MEDIUM-HIGH
+impactDescription: Ensures reliable async testing
+tags: fastapi, testing, async, httpx, pytest
+---
 
-**Impact:** MEDIUM-HIGH - Ensures reliable async testing
+## Async Testing Setup
 
 **Problem:**
 Testing async FastAPI applications without proper async test setup leads to unreliable tests and missed concurrency issues. Using synchronous test clients with async endpoints causes blocking and timeouts.

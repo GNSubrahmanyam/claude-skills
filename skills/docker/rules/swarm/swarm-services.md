@@ -1,5 +1,11 @@
-# Docker Swarm Services
-**Impact:** HIGH - Enables reliable service deployment, scaling, and updates in Swarm clusters
+---
+title: Docker Swarm Services
+impact: HIGH
+impactDescription: Enables reliable service deployment, scaling, and updates in Swarm clusters
+tags: docker, swarm, services, scaling, orchestration
+---
+
+## Docker Swarm Services
 
 **Problem:**
 Deploying applications across multiple nodes requires coordination, load balancing, and update management. Manual container management doesn't scale. Swarm services provide declarative service management with built-in orchestration.

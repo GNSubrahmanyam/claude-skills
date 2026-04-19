@@ -1,5 +1,11 @@
-# Docker API and Programmatic Access
-**Impact:** LOW - Enables automation, integration, and custom tooling for Docker operations
+---
+title: Docker API and Programmatic Access
+impact: LOW
+impactDescription: Enables automation, integration, and custom tooling for Docker operations
+tags: docker, api, automation, integration, tooling
+---
+
+## Docker API and Programmatic Access
 
 **Problem:**
 Manual Docker CLI commands don't scale for automation, monitoring, or integration with other systems. The Docker API provides programmatic access for building custom tools, CI/CD pipelines, and monitoring solutions.

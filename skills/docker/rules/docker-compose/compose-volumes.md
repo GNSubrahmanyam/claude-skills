@@ -1,6 +1,11 @@
-# Docker Compose Volumes (HIGH)
+---
+title: Docker Compose Volumes
+impact: HIGH
+impactDescription: Ensures data persistence and efficient file sharing between containers
+tags: docker, compose, volumes, persistence, data-sharing
+---
 
-**Impact:** HIGH - Ensures data persistence and efficient file sharing between containers
+## Docker Compose Volumes
 
 **Problem:**
 Containerized applications lose data on restart without proper volume management. Inefficient volume mounting can cause performance issues and security vulnerabilities.

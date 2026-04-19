@@ -1,5 +1,11 @@
-# Docker Security Compliance and Best Practices
-**Impact:** HIGH - Ensures container deployments meet security standards and regulatory requirements
+---
+title: Docker Security Compliance and Best Practices
+impact: HIGH
+impactDescription: Ensures container deployments meet security standards and regulatory requirements
+tags: docker, security, compliance, best-practices, cis
+---
+
+## Docker Security Compliance and Best Practices
 
 **Problem:**
 Organizations must comply with security standards like CIS Docker benchmarks, NIST, and industry regulations. Without compliance frameworks, deployments risk security violations and audit failures. Docker security requires systematic implementation of best practices.

@@ -1,6 +1,11 @@
-# Django Containerization (CRITICAL)
+---
+title: Django Containerization
+impact: CRITICAL
+impactDescription: Ensures reliable Django deployment in containerized environments
+tags: docker, django, containerization, deployment, static-files
+---
 
-**Impact:** CRITICAL - Ensures reliable Django deployment in containerized environments
+## Django Containerization
 
 **Problem:**
 Django applications require specific considerations for static files, database migrations, environment variables, and WSGI/ASGI servers when containerized. Improper containerization leads to missing static files, migration failures, and performance issues.

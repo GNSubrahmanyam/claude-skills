@@ -1,6 +1,11 @@
-# Container Networking (MEDIUM)
+---
+title: Container Networking
+impact: MEDIUM
+impactDescription: Enables reliable inter-container communication and security
+tags: docker, networking, containers, inter-container, security
+---
 
-**Impact:** MEDIUM - Enables reliable inter-container communication and security
+## Container Networking
 
 **Problem:**
 Containers need secure and reliable networking for communication. Poor network configuration leads to connectivity issues, security vulnerabilities, and performance problems.

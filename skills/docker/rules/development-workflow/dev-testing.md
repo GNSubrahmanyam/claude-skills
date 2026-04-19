@@ -1,6 +1,11 @@
-# Testing in Containers (MEDIUM-HIGH)
+---
+title: Testing in Containers
+impact: MEDIUM-HIGH
+impactDescription: Ensures reliable testing in containerized environments
+tags: docker, testing, containers, ci-cd, isolation
+---
 
-**Impact:** MEDIUM-HIGH - Ensures reliable testing in containerized environments
+## Testing in Containers
 
 **Problem:**
 Testing in containers requires proper isolation, dependency management, and cleanup. Poor testing practices lead to flaky tests, resource leaks, and unreliable CI/CD pipelines.
